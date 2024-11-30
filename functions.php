@@ -3,7 +3,7 @@
  * This file adds functions to the Ollie WordPress theme.
  *
  * @package ollie
- * @author  Mike McAlister
+ * @author  Shohei Yamazaki
  * @license GNU General Public License v2 or later
  * @link    https://olliewp.com
  */
