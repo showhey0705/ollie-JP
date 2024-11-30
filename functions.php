@@ -25,11 +25,12 @@ function japonizm_enqueue_styles() {
     // メインのスタイルシートを読み込み
     wp_enqueue_style(
         'theme-style',
-        get_stylesheet_uri()
+        get_stylesheet_uri(),
+        ['google-fonts'], // Google Fontsの後に読み込む
+        wp_get_theme()->get('Version') // テーマのバージョンをバージョン番号として使用
     );
 }
 add_action('wp_enqueue_scripts', 'japonizm_enqueue_styles');
-
 
 /**
  * テーマのデフォルト設定とさまざまなWordPress機能を登録
