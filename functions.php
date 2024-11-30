@@ -1,14 +1,15 @@
 <?php
 /**
- * This file adds functions to the Ollie WordPress theme.
+ * This file adds functions to the japonizm WordPress theme.
  *
- * @package ollie
+ * @package japonizm
  * @author  Shohei Yamazaki
  * @license GNU General Public License v2 or later
- * @link    https://olliewp.com
+ * @link    https://japonizmwp.com
  */
 
-namespace Ollie;
+namespace japonizm;
+
 
 /**
  * Set up theme defaults and register various WordPress features.
@@ -40,49 +41,49 @@ function register_block_styles() {
 
 	$block_styles = array(
 		'core/button'                    => array(
-			'secondary-button' => __( 'Secondary', 'ollie' ),
+			'secondary-button' => __( 'Secondary', 'japonizm' ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'Check', 'ollie' ),
-			'list-check-circle' => __( 'Check Circle', 'ollie' ),
-			'list-boxed'        => __( 'Boxed', 'ollie' ),
+			'list-check'        => __( 'Check', 'japonizm' ),
+			'list-check-circle' => __( 'Check Circle', 'japonizm' ),
+			'list-boxed'        => __( 'Boxed', 'japonizm' ),
 		),
 		'core/code'                      => array(
-			'dark-code' => __( 'Dark', 'ollie' ),
+			'dark-code' => __( 'Dark', 'japonizm' ),
 		),
 		'core/cover'                     => array(
-			'blur-image-less' => __( 'Blur Image Less', 'ollie' ),
-			'blur-image-more' => __( 'Blur Image More', 'ollie' ),
-			'rounded-cover'   => __( 'Rounded', 'ollie' ),
+			'blur-image-less' => __( 'Blur Image Less', 'japonizm' ),
+			'blur-image-more' => __( 'Blur Image More', 'japonizm' ),
+			'rounded-cover'   => __( 'Rounded', 'japonizm' ),
 		),
 		'core/column'                    => array(
-			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
+			'column-box-shadow' => __( 'Box Shadow', 'japonizm' ),
 		),
 		'core/post-excerpt'              => array(
-			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'ollie' ),
-			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'ollie' ),
-			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'ollie' ),
+			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'japonizm' ),
+			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'japonizm' ),
+			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'japonizm' ),
 		),
 		'core/group'                     => array(
-			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
-			'background-blur' => __( 'Background Blur', 'ollie' ),
+			'column-box-shadow' => __( 'Box Shadow', 'japonizm' ),
+			'background-blur' => __( 'Background Blur', 'japonizm' ),
 		),
 		'core/separator'                 => array(
-			'separator-dotted' => __( 'Dotted', 'ollie' ),
-			'separator-thin'   => __( 'Thin', 'ollie' ),
+			'separator-dotted' => __( 'Dotted', 'japonizm' ),
+			'separator-thin'   => __( 'Thin', 'japonizm' ),
 		),
 		'core/image'                     => array(
-			'rounded-full' => __( 'Rounded Full', 'ollie' ),
-			'media-boxed'  => __( 'Boxed', 'ollie' ),
+			'rounded-full' => __( 'Rounded Full', 'japonizm' ),
+			'media-boxed'  => __( 'Boxed', 'japonizm' ),
 		),
 		'core/preformatted'              => array(
-			'preformatted-dark' => __( 'Dark Style', 'ollie' ),
+			'preformatted-dark' => __( 'Dark Style', 'japonizm' ),
 		),
 		'core/post-terms'                => array(
-			'term-button' => __( 'Button Style', 'ollie' ),
+			'term-button' => __( 'Button Style', 'japonizm' ),
 		),
 		'core/video'                     => array(
-			'media-boxed' => __( 'Boxed', 'ollie' ),
+			'media-boxed' => __( 'Boxed', 'japonizm' ),
 		),
 	);
 
@@ -118,7 +119,7 @@ function enqueue_custom_block_styles() {
 		wp_enqueue_block_style(
 			$block_name,
 			array(
-				'handle' => "ollie-block-{$filename}",
+				'handle' => "japonizm-block-{$filename}",
 				'src'    => get_theme_file_uri( "assets/styles/{$filename}.css" ),
 				'path'   => get_theme_file_path( "assets/styles/{$filename}.css" ),
 			)
@@ -134,29 +135,29 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 function pattern_categories() {
 
 	$block_pattern_categories = array(
-		'ollie/card'           => array(
-			'label' => __( 'Cards', 'ollie' ),
+		'japonizm/card'           => array(
+			'label' => __( 'Cards', 'japonizm' ),
 		),
-		'ollie/call-to-action' => array(
-			'label' => __( 'Call To Action', 'ollie' ),
+		'japonizm/call-to-action' => array(
+			'label' => __( 'Call To Action', 'japonizm' ),
 		),
-		'ollie/features'       => array(
-			'label' => __( 'Features', 'ollie' ),
+		'japonizm/features'       => array(
+			'label' => __( 'Features', 'japonizm' ),
 		),
-		'ollie/hero'           => array(
-			'label' => __( 'Hero', 'ollie' ),
+		'japonizm/hero'           => array(
+			'label' => __( 'Hero', 'japonizm' ),
 		),
-		'ollie/pages'          => array(
-			'label' => __( 'Pages', 'ollie' ),
+		'japonizm/pages'          => array(
+			'label' => __( 'Pages', 'japonizm' ),
 		),
-		'ollie/posts'          => array(
-			'label' => __( 'Posts', 'ollie' ),
+		'japonizm/posts'          => array(
+			'label' => __( 'Posts', 'japonizm' ),
 		),
-		'ollie/pricing'        => array(
-			'label' => __( 'Pricing', 'ollie' ),
+		'japonizm/pricing'        => array(
+			'label' => __( 'Pricing', 'japonizm' ),
 		),
-		'ollie/testimonial'    => array(
-			'label' => __( 'Testimonials', 'ollie' ),
+		'japonizm/testimonial'    => array(
+			'label' => __( 'Testimonials', 'japonizm' ),
 		),
 	);
 
@@ -186,8 +187,8 @@ function template_part_areas( array $areas ) {
 	$areas[] = array(
 		'area'        => 'sidebar',
 		'area_tag'    => 'section',
-		'label'       => __( 'Sidebar', 'ollie' ),
-		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'ollie' ),
+		'label'       => __( 'Sidebar', 'japonizm' ),
+		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'japonizm' ),
 		'icon'        => 'sidebar',
 	);
 

@@ -1,19 +1,14 @@
 /*
 Theme Name: Japonizm
-Theme URI: olliewp.com
+Theme URI: https://example.com/japonizm
+Description: A Japanese-focused Full Site Editing theme based on japonizm.
 Author: Shohei Yamazaki
-Author URI: mikemcalister.com
-Description: Ollie WordPressブロックテーマで、超高速、ピクセルパーフェクトなウェブサイトを立ち上げましょう！Ollieには50以上の美しいパターンデザイン、7つのフルページパターンレイアウト、グローバルスタイルによる完全にカスタマイズ可能なデザインシステムが搭載されています。Ollieは、WordPressのパワフルな新エディタ機能すべてとシームレスに統合され、高価なページビルダープラグインは不要です。 ✶ Full demo: https://demo.olliewp.com ✶
-Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
-Tested up to: 6.6
-Requires PHP: 7.3
-Version: 1.2.5
-License: GNU General Public License v3 or later
+Author URI: https://example.com
+Version: 1.0
+License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: ollie
-
-Ollie WordPress Theme, (C) 2024 Shohei Yamazaki.
-Ollie is distributed under the terms of the GNU GPL.
+Tags: full-site-editing, japanese, blog, business
+Text Domain: japonizm
 */
 
 /* CSS Reset
@@ -161,7 +156,7 @@ a.more-link {
 }
 
 @media (max-width: 781px) {
-	.ollie-hide-on-mobile {
+	.japonizm-hide-on-mobile {
 		display: none;
 	}
 }
