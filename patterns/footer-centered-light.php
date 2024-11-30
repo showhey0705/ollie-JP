@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Centered Light
- * Slug: ollie/footer-centered-light
+ * Slug: japonizm/footer-centered-light
  * Description: 
  * Categories: footer
  * Keywords: 
@@ -21,7 +21,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visit Ollie</p>
+<p>Visit Japonizm</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -34,7 +34,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size">© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size">© 2024 · Powered by WordPress and <a href="https://japonizmwp.com">Japonizm</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","justifyContent":"center"}} -->

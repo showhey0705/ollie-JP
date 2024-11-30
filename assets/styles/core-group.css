@@ -8,29 +8,29 @@
 
 /* Improvements for row group */
 @media (max-width: 781px) {
-	.ollie-row-stack {
+	.japonizm-row-stack {
 		flex-direction: column;
 		align-items: flex-start !important;
 	}
 
-	.ollie-row-stack > * {
+	.japonizm-row-stack > * {
 		flex-basis: 100% !important;
 	}
 
-	.ollie-flex-start {
+	.japonizm-flex-start {
 		align-items: flex-start !important;
 	}
 
-	.ollie-justify-start {
+	.japonizm-justify-start {
 		justify-content: flex-start !important;
 	}
 }
 
-.ollie-row-stack > .wp-block-buttons,
-.ollie-no-shrink {
+.japonizm-row-stack > .wp-block-buttons,
+.japonizm-no-shrink {
 	flex-shrink: 0;
 }
 
-.wp-block-group.ollie-sticky-top {
+.wp-block-group.japonizm-sticky-top {
 	top: calc(20px + var(--wp-admin--admin-bar--position-offset, 0px))
 }

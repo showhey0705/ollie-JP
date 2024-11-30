@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Contact Details
- * Slug: ollie/contact-details
+ * Slug: japonizm/contact-details
  * Description: Contact details with call to action buttons and a testimonial
- * Categories: ollie/testimonial, ollie/call-to-action, ollie/hero
+ * Categories: japonizm/testimonial, japonizm/call-to-action, japonizm/hero
  * Keywords: contact, testimonial, about, columns, ratings, email, phone
  * Viewport Width: 1500
  * Block Types: 
@@ -50,7 +50,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">“Working with Ollie has been a delight from start to finish.”</p>
+<p style="font-style:normal;font-weight:600">“Working with Japonizm has been a delight from start to finish.”</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary","fontSize":"x-small"} -->

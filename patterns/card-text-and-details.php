@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Text and Details Card
- * Slug: ollie/text-and-details-card
+ * Slug: japonizm/text-and-details-card
  * Description: 
- * Categories: ollie/call-to-action, ollie/hero, ollie/features, ollie/card
+ * Categories: japonizm/call-to-action, japonizm/hero, japonizm/features, japonizm/card
  * Keywords: table, stats, details, list, card
  * Viewport Width: 1500
  * Block Types: 
@@ -22,18 +22,18 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textColor":"base"} -->
-<h2 class="wp-block-heading has-base-color has-text-color">Download Ollie for free today and start building</h2>
+<h2 class="wp-block-heading has-base-color has-text-color">Download Japonizm for free today and start building</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent"} -->
-<p class="has-main-accent-color has-text-color">Ollie ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes. </p>
+<p class="has-main-accent-color has-text-color">Japonizm ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes. </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}}} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background has-link-color wp-element-button">Download Ollie</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background has-link-color wp-element-button">Download Japonizm</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Numbers
- * Slug: ollie/numbers
+ * Slug: japonizm/numbers
  * Description: 
- * Categories: ollie/features
+ * Categories: japonizm/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types: 

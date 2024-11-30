@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Call To Action Card With Buttons
- * Slug: ollie/call-to-action-card-with-buttons
+ * Slug: japonizm/call-to-action-card-with-buttons
  * Description: A call to action with text and a button.
- * Categories: ollie/call-to-action, ollie/card
+ * Categories: japonizm/call-to-action, japonizm/card
  * Keywords: cta, button, call to action, link
  * Viewport Width: 600
  * Block Types: 
@@ -19,7 +19,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"primary-accent"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color">Build your blazing fast website with the power of the WordPress Site Editor and beautiful, pre-made pattern designs from Ollie. No coding skills required.</p>
+<p class="has-text-align-center has-primary-accent-color has-text-color">Build your blazing fast website with the power of the WordPress Site Editor and beautiful, pre-made pattern designs from Japonizm. No coding skills required.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

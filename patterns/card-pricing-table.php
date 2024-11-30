@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Pricing Table Card
- * Slug: ollie/pricing-table-card
+ * Slug: japonizm/pricing-table-card
  * Description: 
- * Categories: ollie/card, ollie/pricing
+ * Categories: japonizm/card, japonizm/pricing
  * Keywords: card, price, pricing, button, list, purchase, download
  * Viewport Width: 600
  * Block Types: 

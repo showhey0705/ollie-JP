@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Text Call To Action Buttons
- * Slug: ollie/text-call-to-action-buttons
+ * Slug: japonizm/text-call-to-action-buttons
  * Description: A call to action with text and a button.
- * Categories: ollie/call-to-action, ollie/hero
+ * Categories: japonizm/call-to-action, japonizm/hero
  * Keywords: cta, call to action, buttons, heading
  * Viewport Width: 1500
  * Block Types: 

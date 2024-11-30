@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonial Card
- * Slug: ollie/card-testimonial
+ * Slug: japonizm/card-testimonial
  * Description:
- * Categories: ollie/card, ollie/testimonial
+ * Categories: japonizm/card, japonizm/testimonial
  * Keywords: testimonial, card, avatar, text, quote, review, rating
  * Viewport Width: 600
  * Block Types:

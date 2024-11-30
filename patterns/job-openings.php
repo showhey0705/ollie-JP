@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Job Openings
- * Slug: ollie/job-openings
+ * Slug: japonizm/job-openings
  * Description: Show job openings and a call to action button
- * Categories: ollie/features, ollie/call-to-action
+ * Categories: japonizm/features, japonizm/call-to-action
  * Keywords: employment, hiring, job, apply
  * Viewport Width: 1500
  * Block Types: 

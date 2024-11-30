@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Hero Light
- * Slug: ollie/hero-light
+ * Slug: japonizm/hero-light
  * Description: 
- * Categories: ollie/call-to-action, ollie/hero
+ * Categories: japonizm/call-to-action, japonizm/hero
  * Keywords: cta, call to action, buttons, homepage, header, hero, heading, screenshot
  * Viewport Width: 1500
  * Block Types: 
@@ -25,16 +25,16 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required.</p>
+<p class="has-text-align-center has-secondary-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Japonizm block theme. No coding skills required.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Download Ollie</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Download Japonizm</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-secondary-button"} -->
-<div class="wp-block-button is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Ollie Features</a></div>
+<div class="wp-block-button is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Japonizm Features</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

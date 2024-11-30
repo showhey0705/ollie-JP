@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Pricing Table
- * Slug: ollie/pricing-table
+ * Slug: japonizm/pricing-table
  * Description: 
- * Categories: ollie/pricing
+ * Categories: japonizm/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
  * Block Types: 
@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Ollie patterns. Connect your eCommerce solution and start making bank.</p>
+<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Japonizm patterns. Connect your eCommerce solution and start making bank.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

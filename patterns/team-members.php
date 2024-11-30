@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Team Members
- * Slug: ollie/team-members
+ * Slug: japonizm/team-members
  * Description: 
- * Categories: ollie/testimonial, ollie/features
+ * Categories: japonizm/testimonial, japonizm/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types: 

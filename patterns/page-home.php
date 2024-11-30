@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Homepage
- * Slug: ollie/page-home
+ * Slug: japonizm/page-home
  * Description: A full page design for a Homepage
- * Categories: ollie/pages
+ * Categories: japonizm/pages
  * Keywords: page, layout, design, template, home
  * Viewport Width: 1500
  * Block Types: 
@@ -11,20 +11,20 @@
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"ollie/hero-text-image-and-logos"} /-->
+<!-- wp:pattern {"slug":"japonizm/hero-text-image-and-logos"} /-->
 
-<!-- wp:pattern {"slug":"ollie/large-text-and-text-boxes"} /-->
+<!-- wp:pattern {"slug":"japonizm/large-text-and-text-boxes"} /-->
 
-<!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-icons"} /-->
+<!-- wp:pattern {"slug":"japonizm/text-and-image-columns-with-icons"} /-->
 
-<!-- wp:pattern {"slug":"ollie/numbers"} /-->
+<!-- wp:pattern {"slug":"japonizm/numbers"} /-->
 
-<!-- wp:pattern {"slug":"ollie/testimonials-and-logos"} /-->
+<!-- wp:pattern {"slug":"japonizm/testimonials-and-logos"} /-->
 
-<!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-testimonial"} /-->
+<!-- wp:pattern {"slug":"japonizm/text-and-image-columns-with-testimonial"} /-->
 
-<!-- wp:pattern {"slug":"ollie/pricing-table"} /-->
+<!-- wp:pattern {"slug":"japonizm/pricing-table"} /-->
 
-<!-- wp:pattern {"slug":"ollie/blog-post-columns"} /-->
+<!-- wp:pattern {"slug":"japonizm/blog-post-columns"} /-->
 
-<!-- wp:pattern {"slug":"ollie/text-call-to-action"} /-->
+<!-- wp:pattern {"slug":"japonizm/text-call-to-action"} /-->

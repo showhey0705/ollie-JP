@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Light
- * Slug: ollie/footer-light
+ * Slug: japonizm/footer-light
  * Description: 
  * Categories: footer
  * Keywords: 
@@ -17,7 +17,7 @@
 <div class="wp-block-column"><!-- wp:site-title {"level":0,"isLink":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"textColor":"main"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required. Download for free today!</p>
+<p class="has-small-font-size">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Japonizm block theme. No coding skills required. Download for free today!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
@@ -111,7 +111,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
 <div class="wp-block-group alignwide has-secondary-color has-text-color has-link-color" style="padding-top:40px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2024 <strong>·</strong> Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-small-font-size">© 2024 <strong>·</strong> Powered by WordPress and <a href="https://japonizmwp.com">Japonizm</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -120,7 +120,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visit Ollie</p>
+<p>Visit Japonizm</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

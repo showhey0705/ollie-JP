@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonial Highlight
- * Slug: ollie/testimonial-highlight
+ * Slug: japonizm/testimonial-highlight
  * Description: 
- * Categories: ollie/testimonial
+ * Categories: japonizm/testimonial
  * Keywords: testimonial, review, rating, case study, text, heading
  * Viewport Width: 1500
  * Block Types: 

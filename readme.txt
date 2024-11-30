@@ -1,5 +1,5 @@
 === japonizm WordPress Block Theme ===
-Contributors: mmcalister, patrickposner, buildwithollie
+Contributors: mmcalister, patrickposner, buildwithjaponizm
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
 Tested up to: 6.6
@@ -10,7 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Launch a blazing-fast, pixel-perfect website with the japonizm WordPress block theme! japonizm features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. japonizm integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
+Launch a blazing-fast, pixel-perfect website with the japonizm WordPress block theme! japonizm features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. japonizm integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.japonizmwp.com ✶
 
 == Changelog ==
 
@@ -75,7 +75,7 @@ Launch a blazing-fast, pixel-perfect website with the japonizm WordPress block t
 = 1.1.0 - 10/14/23 =
 * Remove custom duotone limitation 
 * Improve patterns for use in child themes 
-* Remove unnecessary ollie slug from template part
+* Remove unnecessary japonizm slug from template part
 
 = 1.0.9 - 10/4/23 =
 * Update theme description to remove reference to onboarding wizard

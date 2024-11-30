@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Post Loop List
- * Slug: ollie/post-loop-list
+ * Slug: japonizm/post-loop-list
  * Description: 
- * Categories: ollie/posts
+ * Categories: japonizm/posts
  * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query

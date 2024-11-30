@@ -1,17 +1,17 @@
 
-# Ollie — A WordPress Block Theme
+# Japonizm — A WordPress Block Theme
 
 ![Image](https://user-images.githubusercontent.com/1415737/217930880-5d019715-f0c2-4f2f-9d24-dd466abf531b.jpg)
 
-Ollie is a modern WordPress block theme by [Mike McAlister](https://mikemcalister.com). Ollie is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
+Japonizm is a modern WordPress block theme by [Mike McAlister](https://mikemcalister.com). Japonizm is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
 
-Ollie ships with over 50 beautifully-designed patterns, page templates, block styles, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is also blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance.
+Japonizm ships with over 50 beautifully-designed patterns, page templates, block styles, and style variations so you can design stunning pages quickly with drag and drop instead of code. Japonizm is also blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance.
 
-My goal with [OllieWP.com](https://olliewp.com) and this theme is to help educate both long-time and new WordPress creators about the many powerful, new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes. ✌️
+My goal with [JaponizmWP.com](https://japonizmwp.com) and this theme is to help educate both long-time and new WordPress creators about the many powerful, new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes. ✌️
 
 ## Table of Contents
 
-- [Getting Started with Ollie](#getting-started-with-ollie)
+- [Getting Started with Japonizm](#getting-started-with-japonizm)
 - [Working with Block Themes](#working-with-block-themes)
   - [Site Editor](#site-editor)
   - [Patterns](#patterns)
@@ -23,19 +23,19 @@ My goal with [OllieWP.com](https://olliewp.com) and this theme is to help educat
 - [Beta Feedback](#beta-feedback)
 - [About the Creator](#about-the-creator)
 
-## Getting Started with Ollie
+## Getting Started with Japonizm
 
 | Links  | Description |
 | ------------- | ------------- |
-| [View Ollie Demo](https://demo.olliewp.com)  | Check out a full live demo of the Ollie theme.  |
-| [Download Ollie Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip)  | Download the latest Ollie theme zip to install on your WordPress site.  |
-| [Download Ollie Child Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie-child.zip)  | Download the Ollie child theme zip for customizations  |
+| [View Japonizm Demo](https://demo.japonizmwp.com)  | Check out a full live demo of the Japonizm theme.  |
+| [Download Japonizm Theme Zip](https://github.com/JaponizmWP/japonizm/releases/latest/download/japonizm.zip)  | Download the latest Japonizm theme zip to install on your WordPress site.  |
+| [Download Japonizm Child Theme Zip](https://github.com/JaponizmWP/japonizm/releases/latest/download/japonizm-child.zip)  | Download the Japonizm child theme zip for customizations  |
 
-Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
+Japonizm is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/JaponizmWP/japonizm/releases/latest/download/japonizm.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
 
 ## Working with Block Themes
 
-Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more. 
+Once you activate Japonizm, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Japonizm also supports powerful new features like the site editor, patterns, global styles, and more. 
 
 A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.
 
@@ -51,11 +51,11 @@ https://user-images.githubusercontent.com/1415737/226261553-0bb0a6f9-2c5a-4f84-a
 
 Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor.
 
-You can access Ollie's patterns via the block inserter on posts, pages, or in the site editor. 
+You can access Japonizm's patterns via the block inserter on posts, pages, or in the site editor. 
 
 #### Creating page designs with patterns
 
-To create the pages you see on the [Ollie theme demo](https://demo.olliewp.com), simply insert Ollie's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
+To create the pages you see on the [Japonizm theme demo](https://demo.japonizmwp.com), simply insert Japonizm's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
 
 https://user-images.githubusercontent.com/1415737/226257588-c2777dfc-b6af-40fd-b997-70fc78bdd88e.mp4
 
@@ -71,7 +71,7 @@ https://user-images.githubusercontent.com/1415737/226260411-f911f8aa-30ae-48c1-9
 
 A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements.
 
-https://github.com/OllieWP/ollie/assets/1415737/ccffbd01-0176-4c38-adf3-3ba2d5100a72
+https://github.com/JaponizmWP/japonizm/assets/1415737/ccffbd01-0176-4c38-adf3-3ba2d5100a72
 
 ### Export Your Site
 
@@ -81,7 +81,7 @@ https://user-images.githubusercontent.com/1415737/226259166-d0e3f676-ebe4-4c42-8
 
 ## Developer Notes
 
-The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards. 
+The Japonizm theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards. 
 
 - `composer run lint`
 - `composer run wpcs:scan`
@@ -89,16 +89,16 @@ The Ollie theme works out of the box, so no build steps are required. However, I
 
 ## License
 
-Ollie is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html).
+Japonizm is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## Beta Feedback
 
-Ollie is currently in beta and looking for any and all feedback. Please [open a new issue](https://github.com/OllieWP/ollie/issues/new/choose) for bug reports, feature requests, or general feedback.
+Japonizm is currently in beta and looking for any and all feedback. Please [open a new issue](https://github.com/JaponizmWP/japonizm/issues/new/choose) for bug reports, feature requests, or general feedback.
 
 ## About the Creator
-Ollie was created by [Mike McAlister](https://mikemcalister.com), a code-slinging, pixel-pushing, team-building, award-winning creator from Planet Earth. 
+Japonizm was created by [Mike McAlister](https://mikemcalister.com), a code-slinging, pixel-pushing, team-building, award-winning creator from Planet Earth. 
 
 - Check out my [website](https://mikemcalister.com)
 - Find me on [Twitter](https://twitter.com/mikemcalister)
-- Read my writings at [Ollie](https://olliewp.com) and [Liftoff](https://liftoffcourse.com)
-- Watch Ollie video tutorials on [YouTube](https://www.youtube.com/@OllieWP)
+- Read my writings at [Japonizm](https://japonizmwp.com) and [Liftoff](https://liftoffcourse.com)
+- Watch Japonizm video tutorials on [YouTube](https://www.youtube.com/@JaponizmWP)

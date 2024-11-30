@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Light With Banner
- * Slug: ollie/header-light-with-banner
+ * Slug: japonizm/header-light-with-banner
  * Description: Header with nav and social icons
  * Categories: header
  * Keywords: header, nav, links, button

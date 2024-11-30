@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Contact Card
- * Slug: ollie/card-contact
+ * Slug: japonizm/card-contact
  * Description: 
- * Categories: ollie/card
+ * Categories: japonizm/card
  * Keywords: card, contact, social, links, email, company
  * Viewport Width: 600
  * Block Types: 

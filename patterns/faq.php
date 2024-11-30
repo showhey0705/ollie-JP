@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: FAQ
- * Slug: ollie/faq
+ * Slug: japonizm/faq
  * Description: 
- * Categories: ollie/features
+ * Categories: japonizm/features
  * Keywords: faq, text, features
  * Viewport Width: 1500
  * Block Types: 
@@ -33,11 +33,11 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"border":{"radius":"5px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-radius:5px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size">What exactly is Ollie? </h3>
+<h3 class="wp-block-heading has-medium-font-size">What exactly is Japonizm? </h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ollie is a WordPress block theme that is designed to work with the new WordPress Site Editor. That means your site can be built with blocks, patterns, and other design elements that can be easily edited without any coding skills. </p>
+<p>Japonizm is a WordPress block theme that is designed to work with the new WordPress Site Editor. That means your site can be built with blocks, patterns, and other design elements that can be easily edited without any coding skills. </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -49,7 +49,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Nope! Ollie is designed to work with the native WordPress editor, meaning you don't need a page builder plugin to build a beautiful website on WordPress anymore. Of course, you can continue using your favorite plugins alongside Ollie!</p>
+<p>Nope! Japonizm is designed to work with the native WordPress editor, meaning you don't need a page builder plugin to build a beautiful website on WordPress anymore. Of course, you can continue using your favorite plugins alongside Japonizm!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -77,7 +77,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Patterns are pre-designed page elements that you can drag and drop to create unique designs. Ollie comes with an extensive collection of expertly-designed patterns, but you can also design your own patterns.</p>
+<p>Patterns are pre-designed page elements that you can drag and drop to create unique designs. Japonizm comes with an extensive collection of expertly-designed patterns, but you can also design your own patterns.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

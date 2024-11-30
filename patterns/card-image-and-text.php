@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Image and Text Card
- * Slug: ollie/image-and-text-card
+ * Slug: japonizm/image-and-text-card
  * Description: 
- * Categories: ollie/card
+ * Categories: japonizm/card
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
  * Block Types: 

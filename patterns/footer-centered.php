@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Centered
- * Slug: ollie/footer-centered
+ * Slug: japonizm/footer-centered
  * Description: 
  * Categories: footer
  * Keywords: 
@@ -21,7 +21,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visit Ollie</p>
+<p>Visit Japonizm</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -34,7 +34,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size">© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size">© 2024 · Powered by WordPress and <a href="https://japonizmwp.com">Japonizm</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"main","iconColorValue":"#150E29","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","justifyContent":"center"}} -->

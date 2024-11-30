@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Dark With Banner
- * Slug: ollie/header-dark-with-banner
+ * Slug: japonizm/header-dark-with-banner
  * Description: Header with nav and social icons
  * Categories: header
  * Keywords: header, nav, links, button

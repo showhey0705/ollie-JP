@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: About Page
- * Slug: ollie/page-about
+ * Slug: japonizm/page-about
  * Description: A full page design for an About page
- * Categories: ollie/pages
+ * Categories: japonizm/pages
  * Keywords: page, layout, design, template
  * Viewport Width: 1500
  * Block Types: 
@@ -11,10 +11,10 @@
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"ollie/contact-details"} /-->
+<!-- wp:pattern {"slug":"japonizm/contact-details"} /-->
 
-<!-- wp:pattern {"slug":"ollie/team-members"} /-->
+<!-- wp:pattern {"slug":"japonizm/team-members"} /-->
 
-<!-- wp:pattern {"slug":"ollie/numbers-stacked"} /-->
+<!-- wp:pattern {"slug":"japonizm/numbers-stacked"} /-->
 
-<!-- wp:pattern {"slug":"ollie/job-openings"} /-->
+<!-- wp:pattern {"slug":"japonizm/job-openings"} /-->

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Social Profile Card
- * Slug: ollie/social-profile-card
+ * Slug: japonizm/social-profile-card
  * Description: 
- * Categories: ollie/card
+ * Categories: japonizm/card
  * Keywords: profile, links, social, twitter, facebook, instagram, linktree, avatar, bio
  * Viewport Width: 600
  * Block Types: 

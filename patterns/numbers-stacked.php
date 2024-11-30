@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Numbers Stacked
- * Slug: ollie/numbers-stacked
+ * Slug: japonizm/numbers-stacked
  * Description: Display impressive numbers with a short description
- * Categories: ollie/features
+ * Categories: japonizm/features
  * Keywords: numbers, stats, text, values, count
  * Viewport Width: 1500
  * Block Types: 
@@ -19,7 +19,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Ollie ships with over 50 pixel-perfect pattern designs you can use to build a stunning website with a few clicks.</p>
+<p class="has-primary-accent-color has-text-color">Japonizm ships with over 50 pixel-perfect pattern designs you can use to build a stunning website with a few clicks.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -29,7 +29,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Ollie ships with several full page designs such as Homepage, About, Features, Download, and more.</p>
+<p class="has-primary-accent-color has-text-color">Japonizm ships with several full page designs such as Homepage, About, Features, Download, and more.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -41,7 +41,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">We've spent thousands of hours crafting WordPress themes and applied everything we know to Ollie.</p>
+<p class="has-primary-accent-color has-text-color">We've spent thousands of hours crafting WordPress themes and applied everything we know to Japonizm.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -51,7 +51,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Ollie boasts over two hundred 5 star reviews and an average rating of 9 on Rotten Tomatoes.</p>
+<p class="has-primary-accent-color has-text-color">Japonizm boasts over two hundred 5 star reviews and an average rating of 9 on Rotten Tomatoes.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

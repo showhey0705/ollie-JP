@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Pricing Table With Testimonials
- * Slug: ollie/pricing-table-with-testimonials
+ * Slug: japonizm/pricing-table-with-testimonials
  * Description: 
- * Categories: ollie/pricing
+ * Categories: japonizm/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
  * Block Types: 
@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Ollie patterns. Connect your eCommerce solution and start making bank.</p>
+<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Japonizm patterns. Connect your eCommerce solution and start making bank.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -308,7 +308,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Now that I’ve seen how powerful the Site Editor can be, I can't live without it. Ollie made it super easy to get started with the “new” WordPress.</p>
+<p class="has-small-font-size">Now that I’ve seen how powerful the Site Editor can be, I can't live without it. Japonizm made it super easy to get started with the “new” WordPress.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
@@ -328,7 +328,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">I finally feel like I can ditch my costly page builder plugin. Now, I can quickly build out page sections or full page designs with Ollie patterns.</p>
+<p class="has-small-font-size">I finally feel like I can ditch my costly page builder plugin. Now, I can quickly build out page sections or full page designs with Japonizm patterns.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->

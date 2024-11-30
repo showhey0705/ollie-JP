@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Image and Numbered Features
- * Slug: ollie/image-and-numbered-features
+ * Slug: japonizm/image-and-numbered-features
  * Description: 
- * Categories: ollie/features
+ * Categories: japonizm/features
  * Keywords: number, list, features, bullet
  * Viewport Width: 1500
  * Block Types: 
@@ -53,7 +53,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Your website deserves to look pixel-perfect on every device. Ollie ensures your entire design scales down gracefully automagically.</p>
+<p>Your website deserves to look pixel-perfect on every device. Japonizm ensures your entire design scales down gracefully automagically.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -71,7 +71,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We obsess over performance so you don’t have to. Ollie is super lightweight and scores top marks on Google PageSpeed Insights.</p>
+<p>We obsess over performance so you don’t have to. Japonizm is super lightweight and scores top marks on Google PageSpeed Insights.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

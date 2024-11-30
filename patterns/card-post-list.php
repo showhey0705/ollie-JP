@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Post List Card
- * Slug: ollie/post-list-card
+ * Slug: japonizm/post-list-card
  * Description: 
- * Categories: ollie/card, ollie/posts
+ * Categories: japonizm/card, japonizm/posts
  * Keywords: card, posts, list, links, query, page
  * Viewport Width: 600
  * Block Types: 

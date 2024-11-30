@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Large Text and Text Boxes
- * Slug: ollie/large-text-and-text-boxes
+ * Slug: japonizm/large-text-and-text-boxes
  * Description: 
- * Categories: ollie/features
+ * Categories: japonizm/features
  * Keywords: 
  * Viewport Width: 1500
  * Block Types: 
@@ -18,7 +18,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"}},"fontSize":"large"} -->
-<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
+<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Japonizm block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -59,7 +59,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Ollie ensures your entire design scales down gracefully automagically.</p>
+<p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Japonizm ensures your entire design scales down gracefully automagically.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -83,7 +83,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">We obsess over performance so you don't have to. Ollie is super lightweight and scores top marks on Google PageSpeed Insights.</p>
+<p class="has-small-font-size">We obsess over performance so you don't have to. Japonizm is super lightweight and scores top marks on Google PageSpeed Insights.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

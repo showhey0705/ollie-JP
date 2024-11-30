@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Post Loop Grid Default
- * Slug: ollie/post-loop-grid-default
+ * Slug: japonizm/post-loop-grid-default
  * Description: This post loop grid is best used on index and archive pages where the loop can inherit the query from the page.
- * Categories: ollie/posts
+ * Categories: japonizm/posts
  * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query

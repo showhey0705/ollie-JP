@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Post Columns Single
- * Slug: ollie/blog-post-columns-single
+ * Slug: japonizm/blog-post-columns-single
  * Description:
- * Categories: ollie/posts
+ * Categories: japonizm/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
  * Block Types:

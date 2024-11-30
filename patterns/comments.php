@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Comments
- * Slug: ollie/post-comments
+ * Slug: japonizm/post-comments
  * Description: A list of comments for a post.
- * Categories: ollie/posts
+ * Categories: japonizm/posts
  * Keywords: blog, posts, query
  * Viewport Width: 1500
  * Block Types: 

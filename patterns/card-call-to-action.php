@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Call To Action Card
- * Slug: ollie/card-call-to-action
+ * Slug: japonizm/card-call-to-action
  * Description: 
- * Categories: ollie/card, ollie/call-to-action
+ * Categories: japonizm/card, japonizm/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
  * Block Types: 
@@ -14,7 +14,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Download Ollie</p>
+<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Download Japonizm</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
@@ -29,14 +29,14 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required. Anyone can do it!</p>
+<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Japonizm block theme. No coding skills required. Anyone can do it!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","width":100} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://olliewp.com">Download Now</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://japonizmwp.com">Download Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

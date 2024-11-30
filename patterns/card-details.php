@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Details Card
- * Slug: ollie/details-card
+ * Slug: japonizm/details-card
  * Description: 
- * Categories: ollie/card
+ * Categories: japonizm/card
  * Keywords: card, table, list, info, details
  * Viewport Width: 600
  * Block Types: 

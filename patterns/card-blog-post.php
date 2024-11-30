@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Post Card
- * Slug: ollie/blog-post-card
+ * Slug: japonizm/blog-post-card
  * Description: 
- * Categories: ollie/card, ollie/posts
+ * Categories: japonizm/card, japonizm/posts
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
  * Block Types: 
