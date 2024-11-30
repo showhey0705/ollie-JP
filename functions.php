@@ -10,23 +10,43 @@
 
 namespace japonizm;
 
+/**
+ * Google Fontsを読み込む
+ */
+function japonizm_enqueue_styles() {
+    // Google Fontsを読み込み
+    wp_enqueue_style(
+        'google-fonts',
+        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap',
+        [],
+        null
+    );
+
+    // メインのスタイルシートを読み込み
+    wp_enqueue_style(
+        'theme-style',
+        get_stylesheet_uri()
+    );
+}
+add_action('wp_enqueue_scripts', 'japonizm_enqueue_styles');
+
 
 /**
- * Set up theme defaults and register various WordPress features.
+ * テーマのデフォルト設定とさまざまなWordPress機能を登録
  */
 function setup() {
 
-	// Enqueue editor styles and fonts.
+	// エディタースタイルとフォントをキューに追加
 	add_editor_style( 'style.css' );
 
-	// Remove core block patterns.
+	// コアブロックパターンを削除
 	remove_theme_support( 'core-block-patterns' );
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 
 
 /**
- * Enqueue styles.
+ * スタイルシートをキューに追加
  */
 function enqueue_style_sheet() {
 	wp_enqueue_style( sanitize_title( __NAMESPACE__ ), get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
@@ -35,7 +55,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 
 
 /**
- * Add block style variations.
+ * ブロックスタイルのバリエーションを追加
  */
 function register_block_styles() {
 
@@ -103,11 +123,11 @@ add_action( 'init', __NAMESPACE__ . '\register_block_styles' );
 
 
 /**
- * Load custom block styles only when the block is used.
+ * ブロックが使用されている場合にのみカスタムブロックスタイルを読み込む
  */
 function enqueue_custom_block_styles() {
 
-	// Scan our styles folder to locate block styles.
+	// スタイルフォルダをスキャンしてブロックスタイルを見つける
 	$files = glob( get_template_directory() . '/assets/styles/*.css' );
 
 	foreach ( $files as $file ) {
@@ -169,7 +189,8 @@ add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
 
 
 /**
- * Remove last separator on blog/archive if no pagination exists.
+ * ページネーションが存在しない場合、ブログ/アーカイブの最後のセパレーターを削除する
+ * Remove last separator on blog/archive if no pagination exists.　
  */
 function is_paginated() {
 	global $wp_query;
@@ -181,6 +202,7 @@ add_action( 'wp_head', __NAMESPACE__ . '\is_paginated' );
 
 
 /**
+ * サイドバーテンプレートパーツエリアを追加
  * Add a Sidebar template part area
  */
 function template_part_areas( array $areas ) {
