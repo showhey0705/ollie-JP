@@ -107,6 +107,11 @@
 			],
 			"gradients": [
 				{
+					"name": "Verdy",
+					"slug": "verdy",
+					"gradient": "linear-gradient(135deg, #e98fc0, #dce956, #5edeef)"
+				},
+				{
 					"name": "Purple",
 					"slug": "purple",
 					"gradient": "linear-gradient(135deg, #4D34FA, #ad34fa)"
@@ -186,7 +191,7 @@
 				"thin": 100,
 				"extra-light": 200,
 				"light": 300,
-				"regular": 425,
+				"regular": 420,
 				"medium": 500,
 				"semi-bold": 600,
 				"bold": 700,
@@ -194,6 +199,7 @@
 				"black": 900
 			},
 			"lineHeight": {
+				"overlap": 0.84,
 				"none": 1,
 				"tight": 1.1,
 				"snug": 1.2,
@@ -358,6 +364,20 @@
 					"fontFamily": "monospace",
 					"name": "Monospace",
 					"slug": "monospace"
+				},
+				{
+					"fontFamily": "'Noto serif JP', 'Yu Mincho', serif",
+					"name": "明朝体テキスト",
+					"slug": "jp-serif",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "明朝体テキスト",
+							"fontStretch": "75% 125%",
+							"fontStyle": "normal",
+							"fontWeight": "300 900"
+						}
+					]
 				}
 			],
 			"fontSizes": [
@@ -423,6 +443,15 @@
 					"size": "4.3875rem",
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
+				},
+				{
+					"fluid": {
+						"min": "5.25rem",
+						"max": "8.3875rem"
+					},
+					"size": "9.3875rem",
+					"slug": "xxx-large",
+					"name": "Triple Large"
 				}
 			],
 			"lineHeight": true
@@ -433,7 +462,7 @@
 		"blocks": {
 			"core/code": {
 				"border": {
-					"radius": "5px",
+					"radius": "8px",
 					"width": "0px"
 				},
 				"color": {
@@ -731,7 +760,7 @@
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--base)",
-					"fontWeight": "600",
+					"fontWeight": "400",
 					"lineHeight": "var(--wp--custom--line-height--none)",
 					"letterSpacing": "0"
 				},
@@ -826,8 +855,8 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--primary)",
-					"fontWeight": "600",
+					"fontFamily": "var(--wp--preset--font-family--jp-serif)",
+				"fontWeight": "400",	"fontWeight": "400",
 					"lineHeight": "var(--wp--custom--line-height--body)"
 				}
 			},
@@ -847,9 +876,9 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary)",
+			"fontFamily": "var(--wp--preset--font-family--jp-serif)",
 			"fontSize": "var(--wp--preset--font-size--base)",
-			"fontWeight": "430",
+			"fontWeight": "300",
 			"lineHeight": "var(--wp--custom--line-height--body)"
 		}
 	},
