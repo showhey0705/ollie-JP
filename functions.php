@@ -43,7 +43,7 @@ function register_block_styles() {
 			'secondary-button' => __( 'Secondary', 'japonizm' ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'Check', 'japonizm' ),
+			'list-check'        => __( 'チェック', 'japonizm' ),
 			'list-check-circle' => __( 'Check Circle', 'japonizm' ),
 			'list-boxed'        => __( 'Boxed', 'japonizm' ),
 		),
