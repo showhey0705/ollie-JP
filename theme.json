@@ -281,7 +281,7 @@
 			"spacingSizes": [
 				{
 					"name": "Small",
-					"size": "clamp(.5rem, 2.5vw, 1rem)",
+					"size": "clamp(.5rem, 2.5vw, 1.3rem)",
 					"slug": "small"
 				},
 				{
@@ -878,7 +878,7 @@
 			"h2": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
-					"lineHeight": "var(--wp--custom--line-height--snug)"
+					"lineHeight": "var(--wp--custom--line-height--tight)"
 				}
 			},
 			"h3": {
@@ -919,7 +919,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--small)",
+			"blockGap": "var(--wp--preset--spacing--medium)",
 			"padding": {
 				"top": "0",
 				"right": "var(--wp--preset--spacing--medium)",
