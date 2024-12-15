@@ -16,7 +16,8 @@
 <div class="wp-block-group alignfull has-base-color has-text-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">No code? No problem.</h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html__( 'No code? No problem.', 'japonizm' ); ?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->

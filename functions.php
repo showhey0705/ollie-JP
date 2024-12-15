@@ -129,7 +129,7 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 
 
 /**
- * Register pattern categories.
+ * パターンカテゴリを登録
  */
 function pattern_categories() {
 

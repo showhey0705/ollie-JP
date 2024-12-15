@@ -141,7 +141,7 @@
 				{
 					"name": "Primary",
 					"slug": "primary",
-					"color": "#81613E"
+					"color": "#4d34fa"
 				},
 				{
 					"name": "Main",
@@ -871,7 +871,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "var(--wp--custom--line-height--snug)"
 				}
 			},
