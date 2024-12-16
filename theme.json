@@ -840,7 +840,7 @@
 		"elements": {
 			"button": {
 				"border": {
-					"radius": "5px",
+					"radius": "13px",
 					"width": "0"
 				},
 				"color": {

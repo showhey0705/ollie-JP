@@ -11,6 +11,11 @@
 namespace japonizm;
 
 /**
+ * in18n　テキストドメインを登録
+ */
+load_theme_textdomain( 'japonizm', get_template_directory() . '/languages' );
+
+/**
  * テーマのデフォルト設定とさまざまなWordPress機能を登録
  */
 function setup() {

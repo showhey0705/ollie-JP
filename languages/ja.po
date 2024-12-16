@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Japonizm\n"
+"POT-Creation-Date: 2024-12-16 10:57+0900\n"
+"PO-Revision-Date: 2024-12-16 11:12+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: assets\n"
+"X-Poedit-SearchPath-2: parts\n"
+"X-Poedit-SearchPath-3: patterns\n"
+"X-Poedit-SearchPath-4: templates\n"
+"X-Poedit-SearchPath-5: patterns/card-text-and-call-to-action.php\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: functions.php:48
+msgid "Secondary"
+msgstr "セカンダリー"
+
+#: functions.php:51
+msgid "チェック"
+msgstr "チェック"
+
+#: functions.php:52
+msgid "Check Circle"
+msgstr "丸チェック"
+
+#: functions.php:53 functions.php:81 functions.php:90
+msgid "Boxed"
+msgstr "ボックス"
+
+#: functions.php:56
+msgid "Dark"
+msgstr "ダーク"
+
+#: functions.php:59
+msgid "Blur Image Less"
+msgstr "ぼかし効果（小）"
+
+#: functions.php:60
+msgid "Blur Image More"
+msgstr "ぼかし効果（大）"
+
+#: functions.php:61
+msgid "Rounded"
+msgstr "角丸"
+
+#: functions.php:64 functions.php:72
+msgid "Box Shadow"
+msgstr "ボックスシャドウ"
+
+#: functions.php:67
+#, fuzzy
+msgid "Truncate 2 Lines"
+msgstr "2 行を切り捨てる"
+
+#: functions.php:68
+#, fuzzy
+msgid "Truncate 3 Lines"
+msgstr "3 行を切り捨てる"
+
+#: functions.php:69
+#, fuzzy
+msgid "Truncate 4 Lines"
+msgstr "4 行を切り捨てる"
+
+#: functions.php:73
+msgid "Background Blur"
+msgstr "背景ぼかし"
+
+#: functions.php:76
+msgid "Dotted"
+msgstr "点線"
+
+#: functions.php:77
+msgid "Thin"
+msgstr "薄い"
+
+#: functions.php:80
+#, fuzzy
+msgid "Rounded Full"
+msgstr "丸みを帯びたフル"
+
+#: functions.php:84
+msgid "Dark Style"
+msgstr "ダークスタイル"
+
+#: functions.php:87
+msgid "Button Style"
+msgstr "ボタンスタイル"
+
+#: functions.php:143
+msgid "Cards"
+msgstr "カード"
+
+#: functions.php:146
+msgid "Call To Action"
+msgstr "コールトゥアクション"
+
+#: functions.php:149
+msgid "Features"
+msgstr "特徴・サービス"
+
+#: functions.php:152
+msgid "Hero"
+msgstr "ヒーロー"
+
+#: functions.php:155
+msgid "Pages"
+msgstr "固定ページ"
+
+#: functions.php:158
+msgid "Posts"
+msgstr "投稿"
+
+#: functions.php:161
+msgid "Pricing"
+msgstr "価格"
+
+#: functions.php:164
+msgid "Testimonials"
+msgstr "お客様の声"
+
+#: functions.php:196
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:197
+msgid ""
+"The Sidebar template defines a page area that can be found on the Page (With "
+"Sidebar) template."
+msgstr ""
+"「サイドバー」テンプレートは、サイドバーが付いたページのレイアウトを決めるた"
+"めのテンプレートです。\n"
+"簡単に言うと、ページのメイン部分（記事など）とサイドバー（メニューやリンクな"
+"ど）をどう配置するかを設定するものです。"
+
+#: patterns/text-call-to-action.php:19
+msgid "No code? No problem."
+msgstr "コードがない？安心してください、大丈夫です"
+
+#. Theme Name of the plugin/theme
+msgid "Japonizm"
+msgstr "ジャポニズム"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://example.com/japonizm"
+msgstr "https://example.com/japonizm"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A Japanese-focused Full Site Editing theme based on OllieWP."
+msgstr "OllieWPをベースにした日本語に特化したフルサイト編集FSEテーマ"
+
+#. Author of the plugin/theme
+msgid "Shohei Yamazaki"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://example.com"
+msgstr "https://example.com"
