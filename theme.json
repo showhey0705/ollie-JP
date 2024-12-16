@@ -840,7 +840,7 @@
 		"elements": {
 			"button": {
 				"border": {
-					"radius": "13px",
+					"radius": "5px",
 					"width": "0"
 				},
 				"color": {
@@ -957,17 +957,17 @@
 	"templateParts": [
 		{
 			"name": "header",
-			"title": "Header",
+			"title": "Header ヘッダー🦄",
 			"area": "header"
 		},
 		{
 			"name": "footer",
-			"title": "Footer",
+			"title": "Footer フッター🦄",
 			"area": "footer"
 		},
 		{
 			"name": "sidebar",
-			"title": "Sidebar",
+			"title": "Sidebar サイドバー🦄",
 			"area": "sidebar"
 		}
 	]
