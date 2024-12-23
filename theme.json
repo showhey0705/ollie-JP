@@ -377,23 +377,6 @@
 					]
 				},
 				{
-					"fontFamily": "Mona Sans Expanded Plus, sans-serif",
-					"name": "Mona Sans Expanded Plus",
-					"slug": "expanded",
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mona Sans Expanded Plus",
-							"fontStretch": "175%",
-							"fontStyle": "normal",
-							"fontWeight": "300 900",
-							"src": [
-								"file:./assets/fonts/Mona-Sans.woff2"
-							]
-						}
-					]
-				},
-				{
 					"fontFamily": "Mona Sans Condensed, sans-serif",
 					"name": "Mona Sans Condensed",
 					"slug": "condensed",
