@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Japonizm\n"
-"POT-Creation-Date: 2024-12-16 10:57+0900\n"
-"PO-Revision-Date: 2024-12-16 11:12+0900\n"
+"POT-Creation-Date: 2024-12-16 11:12+0900\n"
+"PO-Revision-Date: 2024-12-16 14:27+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -147,9 +147,9 @@ msgstr ""
 "簡単に言うと、ページのメイン部分（記事など）とサイドバー（メニューやリンクな"
 "ど）をどう配置するかを設定するものです。"
 
-#: patterns/text-call-to-action.php:19
-msgid "No code? No problem."
-msgstr "コードがない？安心してください、大丈夫です"
+#: patterns/text-call-to-action.php:19 text-call-to-action.php:19
+msgid "コードを知らなくても大丈夫。"
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Japonizm"
@@ -172,3 +172,6 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://example.com"
 msgstr "https://example.com"
+
+#~ msgid "No code? No problem."
+#~ msgstr "コードがない？安心してください、大丈夫です"
