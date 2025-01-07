@@ -39,5 +39,4 @@
 .is-style-secondary-button:hover .wp-element-button,
 .wp-block.is-style-secondary-button:hover .wp-element-button {
 	background: var(--wp--preset--color--tertiary);
-	color: var(--wp--preset--color--main);
 }

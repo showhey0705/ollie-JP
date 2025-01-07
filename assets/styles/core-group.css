@@ -5,6 +5,13 @@
 	-webkit-backdrop-filter: blur(20px);
 	backdrop-filter: blur(20px);
 }
+/* Border
+	ボーダー付き */
+.is-style-column-box-border {
+	border: 1px solid var(--wp--preset--color--border-dark);
+	border-radius: 8px;
+	box-shadow: var(--wp--preset--shadow--shadow-sm);
+}
 
 /* Improvements for row group */
 @media (max-width: 781px) {

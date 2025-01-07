@@ -8,7 +8,7 @@
 				{
 					"name": "Primary",
 					"slug": "primary",
-					"color": "#997965"
+					"color": "hsl(23, 20%, 50%)"
 				},
 				{
 					"name": "Main",
@@ -23,12 +23,12 @@
 				{
 					"name": "Main Accent",
 					"slug": "main-accent",
-					"color": "#a98e7d"
+					"color": "hsl(23, 20%, 70%)"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#d5cdc2"
+					"color": "hsl(23, 20%, 80%)"
 				},
 				{
 					"name": "Tertiary",

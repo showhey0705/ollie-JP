@@ -73,6 +73,7 @@ function register_block_styles() {
 		'core/group'                     => array(
 			'column-box-shadow' => __( 'Box Shadow', 'japonizm' ),
 			'background-blur' => __( 'Background Blur', 'japonizm' ),
+			'column-box-border' => __( 'Border', 'japonizm' ),
 		),
 		'core/separator'                 => array(
 			'separator-dotted' => __( 'Dotted', 'japonizm' ),
