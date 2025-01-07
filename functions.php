@@ -19,7 +19,8 @@ load_theme_textdomain( 'japonizm', get_template_directory() . '/languages' );
  * テーマのデフォルト設定とさまざまなWordPress機能を登録
  */
 function setup() {
-
+	//独自のエディタースタイルを有効にする
+	add_theme_support('editor-styles'); 
 	// エディタースタイルとフォントをキューに追加
 	add_editor_style( 'style.css' );
 
@@ -48,7 +49,7 @@ function register_block_styles() {
 			'secondary-button' => __( 'Secondary', 'japonizm' ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'チェック', 'japonizm' ),
+			'list-check'        => __( 'Check', 'japonizm' ),
 			'list-check-circle' => __( 'Check Circle', 'japonizm' ),
 			'list-boxed'        => __( 'Boxed', 'japonizm' ),
 		),
@@ -59,6 +60,7 @@ function register_block_styles() {
 			'blur-image-less' => __( 'Blur Image Less', 'japonizm' ),
 			'blur-image-more' => __( 'Blur Image More', 'japonizm' ),
 			'rounded-cover'   => __( 'Rounded', 'japonizm' ),
+			'circle-cover'   => __( 'Circled', 'japonizm' ),
 		),
 		'core/column'                    => array(
 			'column-box-shadow' => __( 'Box Shadow', 'japonizm' ),
@@ -88,6 +90,9 @@ function register_block_styles() {
 		),
 		'core/video'                     => array(
 			'media-boxed' => __( 'Boxed', 'japonizm' ),
+		),
+		'core/heading'                     => array(
+			'heading-boxed' => __( '囲みタイトル', 'japonizm' ),
 		),
 	);
 

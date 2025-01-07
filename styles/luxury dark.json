@@ -1,56 +1,70 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Pink",
+	"title": "Luxury Dark",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Primary",
 					"slug": "primary",
-					"color": "#ea4c89"
+					"color": "#997965"
 				},
 				{
 					"name": "Main",
 					"slug": "main",
-					"color": "#14111f"
+					"color": "#F6F5F2"
 				},
 				{
 					"name": "Secondary",
 					"slug": "secondary",
-					"color": "#636381"
+					"color": "#EAE9E7"
 				},
 				{
 					"name": "Main Accent",
 					"slug": "main-accent",
-					"color": "#d0ccde"
+					"color": "#9B8878"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#ebdce3"
+					"color": "#B6A995"
 				},
 				{
 					"name": "Tertiary",
 					"slug": "tertiary",
-					"color": "#fbf4f8"
+					"color": "#9B8878"
 				},
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#fbdbe7"
+					"color": "#f0ded5"
 				},
 				{
 					"name": "Border Dark",
 					"slug": "border-dark",
-					"color": "#ea4c8930"
+					"color": "#9979652b"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#fff"
+					"color": "#B6A995"
 				}
 			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"spacing": {
+					"padding": {
+						"top": ".6em",
+						"right": "1.4em",
+						"bottom": ".6em",
+						"left": "1.4em"
+					}
+				}
+			}
 		}
 	}
 }

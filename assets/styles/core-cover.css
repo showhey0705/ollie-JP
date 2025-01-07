@@ -8,23 +8,37 @@
 
 .is-style-blur-image-less > .wp-block-cover__image-background,
 .is-style-blur-image-more > .wp-block-cover__image-background {
-	transform: scale(1.5);
+	
+	transition: filter .3s cubic-bezier(.16,.5,.43,1), transform .3s cubic-bezier(.16,.5,.43,1);
 }
 
 .is-style-blur-image-less > .wp-block-cover__image-background {
+	filter: blur(3px);
+}
+.is-style-blur-image-more > .wp-block-cover__image-background {
 	filter: blur(25px);
 }
-
-.is-style-blur-image-more > .wp-block-cover__image-background {
-	filter: blur(75px);
+.is-style-blur-image-less:hover > .wp-block-cover__image-background,
+.is-style-blur-image-more:hover > .wp-block-cover__image-background {
+	filter: blur(0px);
+	transform: scale(1.24);
 }
-
-.is-style-rounded-cover img {
-	border-radius: 5px;
+.is-style-rounded-cover{
+	overflow: hidden;
+	border-radius: 13px;
 }
 
 @media (max-width: 781px) {
 	.wp-block-cover:not(.has-aspect-ratio) {
 		min-height: 430px !important;
 	}
+}
+
+/*  Circle Cover styles
+--------------------------------------------- */
+
+.is-style-circle-cover {
+	border-radius: 50%; /* 円形にする */
+    overflow: hidden; /* コンテンツが丸からはみ出ないようにする */
+    border: 2px solid #ccc; /* 枠線を追加 */
 }

@@ -34,3 +34,7 @@
 .wp-block-group.japonizm-sticky-top {
 	top: calc(20px + var(--wp-admin--admin-bar--position-offset, 0px))
 }
+
+.japonizm-avatar-row > figure:not(:first-child) {
+    margin-left: -20px !important;
+}

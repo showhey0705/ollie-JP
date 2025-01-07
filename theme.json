@@ -148,6 +148,11 @@
 					"name": "Heat",
 					"slug": "heat",
 					"gradient": "linear-gradient(135deg, #F32758, #FFC581)"
+				},
+				{
+					"name": "Background Subtle",
+					"slug": "bg-subtle",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))"
 				}
 			],
 			"palette": [
@@ -195,11 +200,6 @@
 					"name": "Base",
 					"slug": "base",
 					"color": "#fff"
-				},
-				{
-					"name": "Appleベース",
-					"slug": "apple-base",
-					"color": "#fafafc"
 				}
 			],
 			"link": true
@@ -231,7 +231,7 @@
 			"wideSize": "1280px"
 		},
 		"shadow": {
-			"defaultPresets": true,
+			"defaultPresets": false,
             "presets": [
                 {
                     "name": "Extra Large Dark",
@@ -284,9 +284,49 @@
                     "shadow": "rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px"
                 },
 				{
-                    "name": "Material",
-                    "slug": "material",
-                    "shadow": "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px"
+                    "name": "シャドウ（S）",
+                    "slug": "shadow-sm",
+                    "shadow": "0 1px 2px 0 rgb(0 0 0 / 0.05)"
+                },
+				{
+                    "name": "シャドウ（標準）",
+                    "slug": "shadow-base",
+                    "shadow": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)"
+                },
+				{
+                    "name": "シャドウ（M）",
+                    "slug": "shadow-md",
+                    "shadow": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+                },
+				{
+                    "name": "シャドウ（L）",
+                    "slug": "shadow-lg",
+                    "shadow": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+                },
+				{
+                    "name": "シャドウ（XL）",
+                    "slug": "shadow-xl",
+                    "shadow": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+                },
+				{
+                    "name": "シャドウ（2XL）",
+                    "slug": "shadow-2xl",
+                    "shadow": "0 25px 50px -12px rgb(0 0 0 / 0.25)"
+                },
+				{
+                    "name": "シャドウ（インセット）",
+                    "slug": "shadow-inner",
+                    "shadow": "inset 0 2px 2px 0 hsla(0, 0%, 0%, 0.13), 0 2px 0 hsla(0, 0%, 100%, 0.15)"
+                },
+				{
+                    "name": "シャドウ（インセット）for ボタン",
+                    "slug": "shadow-inner-button",
+                    "shadow": "inset 0 1px 0 rgb(0 0 0 / 0.05), 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)"
+                },
+				{
+                    "name": "シャドウなし",
+                    "slug": "shadow-none",
+                    "shadow": "box-shadow: 0 0 #0000"
                 }
             ]
         },
@@ -458,10 +498,10 @@
 			"fontSizes": [
 				{
 					"fluid": {
-						"min": ".825rem",
-						"max": ".95rem"
+						"min": ".8rem",
+						"max": ".89rem"
 					},
-					"size": ".95rem",
+					"size": ".89rem",
 					"slug": "x-small",
 					"name": "Extra Small"
 				},
@@ -486,9 +526,9 @@
 				{
 					"fluid": {
 						"min": "1.365rem",
-						"max": "1.65rem"
+						"max": "1.42rem"
 					},
-					"size": "1.65rem",
+					"size": "1.42rem",
 					"slug": "medium",
 					"name": "Medium"
 				},
@@ -521,10 +561,10 @@
 				},
 				{
 					"fluid": {
-						"min": "42px",
-						"max": "180px"
+						"min": "6rem",
+						"max": "9rem"
 					},
-					"size": "180px",
+					"size": "9rem",
 					"slug": "xxx-large",
 					"name": "Triple Large"
 				}
@@ -873,7 +913,7 @@
 				"border": {
 					"radius": "13px"
 				},
-				"shadow": "var(--wp--preset--shadow--material)"
+				"shadow": "var(--wp--preset--shadow--shadow-base)"
 			}
 		},
 		"color": {
@@ -887,7 +927,7 @@
 					"width": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--main)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -899,17 +939,20 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontWeight": "500"
+					"fontSize": "var(--wp--preset--font-size--x-small)",
+					"lineHeight": "var(--wp--custom--line-height--body)",
+					"fontWeight": "700",
+					"letterSpacing": "0.04em"
 				},
+				"shadow": "var(--wp--preset--shadow--shadow-inner-button)",
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--main)",
-						"text": "var(--wp--preset--color--base)"
+						"background": "var(--wp--preset--color--main-accent)"
 					},
 					"typography": {
 						"textDecoration": "underline"
-					}
+					},
+					"shadow": "var(--wp--preset--shadow--shadow-sm)"
 				}
 			},
 			"h1": {
@@ -920,7 +963,7 @@
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontSize": "var(--wp--preset--font-size-xx-large)",
 					"lineHeight": "var(--wp--custom--line-height--tight)"
 				}
 			},

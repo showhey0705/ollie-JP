@@ -1,17 +1,30 @@
+/* Button - Defautl Settings
+--------------------------------------------- */
+.wp-block-button .wp-element-button,
+.wp-block-button.is-style-outline .wp-element-button {
+	transition: all 0.24s cubic-bezier(.16,.5,.43,1);
+}
+
+.wp-block-button:hover .wp-element-button {
+
+}
+
 /* Button - Outline Style
 --------------------------------------------- */
 
-.wp-block-button.is-style-outline .wp-block-button__link {
+
+
+.wp-block-button.is-style-outline .wp-element-button {
 	border: none;
-	background-color: transparent;
-	outline: 2px solid currentColor;
-	outline-offset: -2px;
-	padding: .5em 1em;
+	background: var(--wp--preset--color--base);
+	outline: 1px solid var(--wp--preset--color--border-dark);
+	outline-offset: -1px;
+	/* padding: .5em 1em; */
 }
 
-.wp-block-button.is-style-outline .wp-block-button__link:hover {
-	color: var(--wp--preset--color--main) !important;
-	outline-color: var(--wp--preset--color--main);
+.wp-block-button.is-style-outline .wp-element-button:hover {
+	color: var(--wp--preset--color--primiary);
+	background: var(--wp--preset--color--tertiary);
 }
 
 /* Button - Secondary Style
@@ -19,9 +32,8 @@
 
 .is-style-secondary-button .wp-element-button,
 .wp-block.is-style-secondary-button .wp-element-button {
-	background: var(--wp--preset--color--tertiary);
+	background: var(--wp--preset--color--primary-accent);
 	color: var(--wp--preset--color--main);
-	font-size: var(--wp--preset--font-size--small);
 }
 
 .is-style-secondary-button:hover .wp-element-button,

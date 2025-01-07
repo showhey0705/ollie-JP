@@ -155,3 +155,11 @@ header .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-
 		padding: var(--wp--preset--spacing--small) !important;
 	}
 }
+
+
+/*  Add Blurs like Apple on Transparent Header
+--------------------------------------------- */
+
+.header--transparent{
+    backdrop-filter: blur(20px);
+}

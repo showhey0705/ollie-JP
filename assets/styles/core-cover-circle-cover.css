@@ -1,0 +1,8 @@
+/*  Circle Cover styles
+--------------------------------------------- */
+
+.is-style-circle-cover {
+	border-radius: 50%; /* 円形にする */
+    overflow: hidden; /* コンテンツが丸からはみ出ないようにする */
+    border: 2px solid #ccc; /* 枠線を追加 */
+}

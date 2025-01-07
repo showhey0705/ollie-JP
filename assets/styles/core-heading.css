@@ -1,0 +1,10 @@
+/* Heading
+--------------------------------------------- */
+
+.is-style-heading-boxed {
+	background-color: var(--wp--preset--color--tertiary);
+	padding: var(--wp--preset--spacing--small);
+	outline: 1px solid var(--wp--preset--color--border);
+	border-radius: 5px;
+	line-height: 1;
+}
