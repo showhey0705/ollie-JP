@@ -1,64 +1,64 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Luxury Dark",
+	"title": "Navy Yellow",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#997A66"
+					"color": "#252648"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#D9C9BF"
+					"color": "#B8B9E0"
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
-					"color": "#E4C7B9"
+					"color": "#E3A346"
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#55453F"
+					"color": "#514B43"
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#2B241B"
+					"color": "#2D2416"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#AD987B"
+					"color": "#C2A882"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#f9f9f4"
+					"color": "#ECE4D8"
 				},
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#887255"
+					"color": "#99794B"
 				},
 				{
 					"name": "tint",
 					"slug": "tertiary",
-					"color": "#E6E0D7"
+					"color": "#E2D5C3"
 				},
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#D8CEC0"
+					"color": "#D7C6AD"
 				},
 				{
 					"name": "Border Dark",
 					"slug": "border-dark",
-					"color": "#594B38"
+					"color": "#6E5736"
 				}
 			]
 		}

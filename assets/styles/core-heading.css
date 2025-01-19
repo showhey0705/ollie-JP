@@ -4,7 +4,40 @@
 .is-style-heading-boxed {
 	background-color: var(--wp--preset--color--tertiary);
 	padding: var(--wp--preset--spacing--small);
-	outline: 1px solid var(--wp--preset--color--border);
+	outline: 1px solid var(--wp--preset--color--border-light);
 	border-radius: 5px;
 	line-height: 1;
+}
+
+.is-style-heading-gradient{
+	padding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--medium);
+  	color: #fff;
+	border-radius: 100vh;
+	background-image: var(--wp--preset--gradient--luminous-dusk);
+}
+
+.is-style-heading-line {
+	position: relative;
+	padding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--medium);
+	color: var(--wp--preset--color--main);
+	border-radius: 8px;
+	background: var(--wp--preset--color--primary-accent);
+}
+
+.is-style-heading-line:after {
+	position: absolute;
+	bottom: -9px;
+	left: 1em;
+	width: 0;
+	height: 0;
+	content: '';
+	border-width: 10px 10px 0 10px;
+	border-style: solid;
+	border-color: var(--wp--preset--color--primary-accent) transparent transparent transparent;
+}
+
+.is-style-heading-gradient-text{
+	background: var(--wp--preset--gradient--verdy);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

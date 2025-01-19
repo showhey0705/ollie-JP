@@ -153,6 +153,21 @@
 					"name": "Background Subtle",
 					"slug": "bg-subtle",
 					"gradient": "linear-gradient(135deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))"
+				},
+				{
+					"name": "Background Dark",
+					"slug": "bg-dark",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--main), var(--wp--preset--color--primary-alt-accent))"
+				},
+				{
+					"name": "Background Light",
+					"slug": "bg-light",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary-alt), var(--wp--preset--color--main-accent))"
+				},
+				{
+					"name": "Brand Gradient",
+					"slug": "brand-gradient",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary), var(--wp--preset--color--primiary-alt-accent))"
 				}
 			],
 			"palette": [
@@ -948,7 +963,7 @@
 				"shadow": "var(--wp--preset--shadow--shadow-inner-button)",
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--main-accent)"
+						"background": "var(--wp--preset--color--primary-alt-accent)"
 					},
 					"typography": {
 						"textDecoration": "underline"
@@ -995,7 +1010,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--jp-serif)",
 					"fontWeight": "300",
-					"lineHeight": "var(--wp--custom--line-height--relaxed)",
+					"lineHeight": "var(--wp--custom--line-height--snug)",
 					"letterSpacing": "-0.03em"
 				}
 			},
@@ -1018,7 +1033,7 @@
 			"fontFamily": "var(--wp--preset--font-family--jp-sans)",
 			"fontSize": "var(--wp--preset--font-size--base)",
 			"fontWeight": "normal",
-			"lineHeight": "var(--wp--custom--line-height--loose)",
+			"lineHeight": "var(--wp--custom--line-height--relaxed)",
 			"letterSpacing": "0.03em"
 		}
 	},

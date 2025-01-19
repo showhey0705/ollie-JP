@@ -82,6 +82,7 @@ function register_block_styles() {
 		'core/image'                     => array(
 			'rounded-full' => __( 'Rounded Full', 'japonizm' ),
 			'media-boxed'  => __( 'Boxed', 'japonizm' ),
+			'media-shine'  => __( 'Shiny', 'japonizm' ),
 		),
 		'core/preformatted'              => array(
 			'preformatted-dark' => __( 'Dark Style', 'japonizm' ),
@@ -94,6 +95,9 @@ function register_block_styles() {
 		),
 		'core/heading'                     => array(
 			'heading-boxed' => __( '囲みタイトル', 'japonizm' ),
+			'heading-gradient' => __( 'Gradient Style', 'japonizm' ),
+			'heading-line' => __( 'Line Style', 'japonizm' ),
+			'heading-gradient-text' => __( 'Gradient Text Style', 'japonizm' ),
 		),
 	);
 
