@@ -1,9 +1,9 @@
 
-# Japonizm — A WordPress Block Theme
+# Japonizm — A WordPress Block Theme 日本語特化型WordPressブロックテーマ「ジャポニズム」
 
 ![Image](https://user-images.githubusercontent.com/1415737/217930880-5d019715-f0c2-4f2f-9d24-dd466abf531b.jpg)
 
-Japonizm is a modern WordPress block theme by [Mike McAlister](https://mikemcalister.com). Japonizm is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
+Japonizm is a modern WordPress block theme by [PhotoshopVIP](https://photoshopvip.net). Japonizm is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
 
 Japonizm ships with over 50 beautifully-designed patterns, page templates, block styles, and style variations so you can design stunning pages quickly with drag and drop instead of code. Japonizm is also blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance.
 
