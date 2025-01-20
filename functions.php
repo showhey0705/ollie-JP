@@ -45,9 +45,6 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 function register_block_styles() {
 
 	$block_styles = array(
-		'core/button'                    => array(
-			'secondary-button' => __( 'Secondary', 'japonizm' ),
-		),
 		'core/list'                      => array(
 			'list-check'        => __( 'Check', 'japonizm' ),
 			'list-check-circle' => __( 'Check Circle', 'japonizm' ),

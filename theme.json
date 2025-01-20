@@ -943,7 +943,7 @@
 					"width": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
+					"background": "var(--wp--preset--color--main)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {

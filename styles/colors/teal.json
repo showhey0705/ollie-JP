@@ -1,80 +1,66 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
-	"title": "Jade Clinic",
+	"version": 3,
+	"title": "Teal",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#426253"
+					"color": "#45A1B8"
 				},
 				{
-					"name": "Primary Accent",
+					"name": "Brand Accent",
 					"slug": "primary-accent",
-					"color": "#C0D8CD"
+					"color": "#D8F1F8"
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
-					"color": "#E0EBEA"
+					"color": "#CFF1FA"
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#006151"
+					"color": "#3B646F"
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#372702"
+					"color": "#192123"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#fbd87f"
+					"color": "#C5DFE6"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#FFFBF2"
+					"color": "#fff"
 				},
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#976E04"
+					"color": "hsl(188, 19%, 31%)"
 				},
 				{
-					"name": "tint",
+					"name": "Tint",
 					"slug": "tertiary",
-					"color": "#FEF4DB"
+					"color": "#f1f7f8"
 				},
 				{
-					"name": "Border Light",
+					"name": "Border Base",
 					"slug": "border-light",
-					"color": "#FDEDC4"
+					"color": "#D2E2E6"
 				},
 				{
-					"name": "Border Dark",
+					"name": "Border Contrast",
 					"slug": "border-dark",
-					"color": "#705103"
+					"color": "#516063"
 				}
 			]
-		}
-	},
-	"styles": {
-		"elements": {
-			"button": {
-				"spacing": {
-					"padding": {
-						"top": ".6em",
-						"right": "1.4em",
-						"bottom": ".6em",
-						"left": "1.4em"
-					}
-				}
-			}
 		}
 	}
 }

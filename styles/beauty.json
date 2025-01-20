@@ -6,59 +6,59 @@
 		"color": {
 			"palette": [
 				{
-					"name": "Primary",
+					"name": "Brand",
 					"slug": "primary",
 					"color": "#527471"
 				},
 				{
-					"name": "Main",
+					"name": "Primary Accent",
+					"slug": "primary-accent",
+					"color": "#DDEEED"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "primary-alt",
+					"color": "#F5E3CC"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "primary-alt-accent",
+					"color": "#594936"
+				},
+				{
+					"name": "Contrast",
 					"slug": "main",
 					"color": "#14262C"
 				},
 				{
-					"name": "Secondary",
-					"slug": "secondary",
-					"color": "#425d5a"
-				},
-				{
-					"name": "Main Accent",
+					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#8fafac"
-				},
-				{
-					"name": "Primary Accent",
-					"slug": "primary-accent",
-					"color": "#bed0cf"
-				},
-				{
-					"name": "Tertiary",
-					"slug": "tertiary",
-					"color": "#ADB6BA"
-				},
-				{
-					"name": "Border Light",
-					"slug": "border-light",
-					"color": "#dde1e5"
-				},
-				{
-					"name": "Border Dark",
-					"slug": "border-dark",
-					"color": "#53737024"
+					"color": "#8FAFAC"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#D1D5D0"
+					"color": "#EAF0F0"
 				},
 				{
-					"name": "Light2",
-					"slug": "light2",
-					"color": "#FAFAFC"
+					"name": "Base Accent",
+					"slug": "secondary",
+					"color": "#425D5A"
 				},
 				{
-					"name": "Logo",
-					"slug": "logo",
-					"color": "#F0E3CF"
+					"name": "tint",
+					"slug": "tertiary",
+					"color": "#D3E0DF"
+				},
+				{
+					"name": "Border Light",
+					"slug": "border-light",
+					"color": "#BDD0CE"
+				},
+				{
+					"name": "Border Dark",
+					"slug": "border-dark",
+					"color": "#334846"
 				}
 			]
 		}
@@ -68,7 +68,7 @@
 			"button": {
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--logo)"
+					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
 					"padding": {
