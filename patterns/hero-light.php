@@ -20,7 +20,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"className":"has-secondary-font-family","style":{"typography":{"fontSize":"4rem"}}} -->
-<h1 class="wp-block-heading has-text-align-center has-secondary-font-family" style="font-size:4rem">Build your site with clicks, not code.</h1>
+<h1 class="wp-block-heading has-text-align-center has-secondary-font-family" style="font-size:4rem">たった数クリックでホームページが完成</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
