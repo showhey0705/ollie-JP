@@ -25,16 +25,16 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Japonizm block theme. No coding skills required.</p>
+<p class="has-text-align-center has-secondary-color has-text-color">新しいWordPressサイトエディターとJaponizmブロックテーマを使って、フルカスタマイズ可能な美しいウェブサイトを簡単に作成できます。コーディングのスキルは必要ありません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Download Japonizm</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Japonizmを無料ダウンロード</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-secondary-button"} -->
-<div class="wp-block-button is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Japonizm Features</a></div>
+<div class="wp-block-button is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Japonizmの特長</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

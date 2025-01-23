@@ -11,8 +11,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|xx-large","margin":{"top":"0","bottom":"0"}},"color":{"gradient":"linear-gradient(0deg,rgb(228,199,185) 47%,rgba(227,198,184,0) 47%)"}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-background" style="background:linear-gradient(0deg,rgb(228,199,185) 47%,rgba(227,198,184,0) 47%);margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"verticalAlignment":null,"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|xxxx-large"}}}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Hero","categories":["japonizm/hero"],"patternName":"japonizm/hero-agency-1"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|xx-large","margin":{"top":"0","bottom":"0"}}},"gradient":"bg-brand","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull has-bg-brand-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|xxxx-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"80%"} -->
 <div class="wp-block-column" style="flex-basis:80%"><!-- wp:group {"metadata":{"name":"Titles"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fixed","flexSize":"70%"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
@@ -20,7 +20,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"typography":{"letterSpacing":"-2px","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}},"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--medium);letter-spacing:-2px;line-height:1.2"><mark style="background-color:#E4C7B9" class="has-inline-color">医療からも、</mark><br><mark style="background-color:#E4C7B9" class="has-inline-color">美容からも、</mark><br><mark style="background-color:#E4C7B9" class="has-inline-color">最適解で。</mark></h2>
+<h2 class="wp-block-heading has-xx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--medium);letter-spacing:-2px;line-height:1.2"><mark style="background-color:var(--wp--preset--color--primary-alt)" class="has-inline-color has-base-color">医療からも、<br>美容からも、<br>最適解で。</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"medium"} -->
@@ -43,8 +43,8 @@
 <figure class="wp-block-image size-full has-custom-border is-style-rounded-full"><img src="http://japon.local/wp-content/uploads/2025/01/Close-up-of-a-Human-Face.webp" alt="" class="wp-image-98" style="border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:80px;border-bottom-right-radius:30px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":99,"sizeSlug":"large","linkDestination":"none","className":"is-style-media-boxed","style":{"border":{"radius":{"topLeft":"30px","topRight":"30px","bottomLeft":"30px","bottomRight":"80px"}}}} -->
-<figure class="wp-block-image size-large has-custom-border is-style-media-boxed"><img src="http://japon.local/wp-content/uploads/2025/01/Close-up-of-a-Face-with-Makeup-683x1024.webp" alt="" class="wp-image-99" style="border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:80px"/></figure>
+<!-- wp:image {"id":99,"sizeSlug":"large","linkDestination":"none","className":"is-style-media-shine","style":{"border":{"radius":{"topLeft":"30px","topRight":"30px","bottomLeft":"30px","bottomRight":"80px"}}}} -->
+<figure class="wp-block-image size-large has-custom-border is-style-media-shine"><img src="http://japon.local/wp-content/uploads/2025/01/Close-up-of-a-Face-with-Makeup-683x1024.webp" alt="" class="wp-image-99" style="border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:80px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":100,"sizeSlug":"full","linkDestination":"none","className":"is-style-media-shine","style":{"border":{"radius":{"topLeft":"30px","topRight":"80px","bottomLeft":"30px","bottomRight":"30px"}}}} -->

@@ -10,8 +10,9 @@
  * Post Types: 
  * Inserter: true
  */
-?><!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|xx-large","margin":{"top":"0","bottom":"0"}},"color":{"gradient":"linear-gradient(0deg,rgb(228,199,185) 47%,rgba(227,198,184,0) 47%)"}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-background" style="background:linear-gradient(0deg,rgb(228,199,185) 47%,rgba(227,198,184,0) 47%);margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"verticalAlignment":null,"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|xxxx-large"}}}} -->
+?>
+<!-- wp:group {"tagName":"section","metadata":{"name":"Hero","categories":["japonizm/hero"],"patternName":"japonizm/hero-agency-2"},"align":"full","className":"has-bg-brand-alt-gradient-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|xx-large","margin":{"top":"0","bottom":"0"}}},"gradient":"bg-brand","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull has-bg-brand-alt-gradient-background has-bg-brand-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|xxxx-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"80%"} -->
 <div class="wp-block-column" style="flex-basis:80%"><!-- wp:group {"metadata":{"name":"Titles"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fixed","flexSize":"70%"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
@@ -19,7 +20,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"typography":{"letterSpacing":"-2px","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}},"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--medium);letter-spacing:-2px;line-height:1.2"><mark style="background-color:#E4C7B9" class="has-inline-color">医療からも、</mark><br><mark style="background-color:#E4C7B9" class="has-inline-color">美容からも、</mark><br><mark style="background-color:#E4C7B9" class="has-inline-color">最適解で。</mark></h2>
+<h2 class="wp-block-heading has-xx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--medium);letter-spacing:-2px;line-height:1.2"><mark style="background-color:var(--wp--preset--color--primary-alt)" class="has-inline-color">医療からも、</mark><br><mark style="background-color:var(--wp--preset--color--primary-alt)" class="has-inline-color">美容からも、</mark><br><mark style="background-color:var(--wp--preset--color--primary-alt)" class="has-inline-color">最適解で。</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"medium"} -->

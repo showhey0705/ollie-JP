@@ -1,9 +1,12 @@
 /* Button - Defautl Settings
 --------------------------------------------- */
-.wp-block-button .wp-element-button,
-.wp-block-button.is-style-outline .wp-element-button {
+.wp-block-button .wp-element-button {
 	transition: all 0.24s cubic-bezier(.16,.5,.43,1);
 }
+
+/* .wp-block-button .wp-element-button:hover{
+	background-color: var(--wp--preset--color--tertiary) !important;
+} */
 
 /* Button - Outline Style
 --------------------------------------------- */

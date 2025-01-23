@@ -115,16 +115,6 @@
 			],
 			"gradients": [
 				{
-					"name": "Verdy",
-					"slug": "verdy",
-					"gradient": "linear-gradient(135deg, #e98fc0, #dce956, #5edeef)"
-				},
-				{
-					"name": "Jade",
-					"slug": "jade",
-					"gradient": "linear-gradient(135deg, #426253, #dee9e3)"
-				},
-				{
 					"name": "Purple",
 					"slug": "purple",
 					"gradient": "linear-gradient(135deg, #4D34FA, #ad34fa)"
@@ -150,14 +140,19 @@
 					"gradient": "linear-gradient(135deg, #F32758, #FFC581)"
 				},
 				{
+					"name": "Radial",
+					"slug": "radial",
+					"gradient": "radial-gradient(farthest-side at 73% 21%, transparent, #1a1d29)"
+				},
+				{
 					"name": "Background Subtle",
 					"slug": "bg-subtle",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))"
+					"gradient": "linear-gradient(0deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))"
 				},
 				{
 					"name": "Background Dark",
 					"slug": "bg-dark",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--main), var(--wp--preset--color--primary-alt-accent))"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--main), var(--wp--preset--color--border-dark))"
 				},
 				{
 					"name": "Background Light",
@@ -165,9 +160,14 @@
 					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary-alt), var(--wp--preset--color--main-accent))"
 				},
 				{
-					"name": "Brand Gradient",
-					"slug": "brand-gradient",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary), var(--wp--preset--color--primiary-alt-accent))"
+					"name": "Background Brand",
+					"slug": "bg-brand",
+					"gradient": "linear-gradient(345deg, var(--wp--preset--color--primary) 50%, rgba(255,255,255,0) 50%)"
+				},
+				{
+					"name": "Background Brand alt",
+					"slug": "bg-brand-alt",
+					"gradient": "linear-gradient(345deg, var(--wp--preset--color--primary-alt) 50%, rgba(255,255,255,0) 50%)"
 				}
 			],
 			"palette": [
@@ -379,7 +379,7 @@
 				},
 				{
 					"name": "4xl",
-					"size": "clamp(42px,-6.5915492958px + 9.7183098592vw,180px)",
+					"size": "clamp(42px, -6.5915492958px + 9.7183098592vw, 180px)",
 					"slug": "xxxx-large"
 				}
 			],
@@ -1011,7 +1011,8 @@
 					"fontFamily": "var(--wp--preset--font-family--jp-serif)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--line-height--snug)",
-					"letterSpacing": "-0.03em"
+					"letterSpacing": "-0.03em",
+					"css": ".wp-block-heading { font-feature-settings: palt 1 }"
 				}
 			},
 			"link": {
