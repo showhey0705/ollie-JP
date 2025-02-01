@@ -1,64 +1,64 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Luxury",
+	"title": "Powder Pink",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#8F6F52"
+					"color": "#FADBDE"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#E8DDD8"
+					"color": "#655657"
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
-					"color": "#E4C7B9"
+					"color": "#F49FC5"
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#56453F"
+					"color": "#322B2B"
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#2A241C"
+					"color": "#232323"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#9F897A"
+					"color": "#FCD5D7"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#FAF5F2"
+					"color": "#FFFFFF"
 				},
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#AD947B"
+					"color": "#978182"
 				},
 				{
 					"name": "tint",
-					"slug": "tertiary",     
-					"color": "#EFE0D7"
+					"slug": "tertiary",
+					"color": "#FFEEEE"
 				},
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#CAC1B2"
+					"color": "#FFE6E7"
 				},
 				{
 					"name": "Border Dark",
 					"slug": "border-dark",
-					"color": "#594B38"
+					"color": "#504445"
 				}
 			]
 		}
@@ -66,12 +66,31 @@
 	"styles": {
 		"elements": {
 			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--main)"
+				},
 				"spacing": {
 					"padding": {
 						"top": ".6em",
-						"right": "1.4em",
+						"right": "1em",
 						"bottom": ".6em",
-						"left": "1.4em"
+						"left": "1em"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"lineHeight": "var(--wp--custom--line-height--body)",
+					"fontWeight": "500",
+					"letterSpacing": "0.05em"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--main)",
+						"text": "var(--wp--preset--color--base)"
+					},
+					"typography": {
+						"textDecoration": "underline"
 					}
 				}
 			}

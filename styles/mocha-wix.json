@@ -8,12 +8,12 @@
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#A67763"
+					"color": "#A47864"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#E1D2CB"
+					"color": "#E4C7B8"
 				},
 				{
 					"name": "Brand Alt",
@@ -28,37 +28,37 @@
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#533527"
+					"color": "#2B241B"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#B67E64"
+					"color": "#AD947B"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#E2E2D9"
+					"color": "#f9f9f4"
 				},
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#7F513C"
+					"color": "#8E7767"
 				},
 				{
 					"name": "tint",
 					"slug": "tertiary",
-					"color": "#D6CFC4"
+					"color": "#E6E0D7"
 				},
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#cac1b2"
+					"color": "#CAC1B2"
 				},
 				{
 					"name": "Border Dark",
 					"slug": "border-dark",
-					"color": "#694331"
+					"color": "#594B38"
 				}
 			]
 		}

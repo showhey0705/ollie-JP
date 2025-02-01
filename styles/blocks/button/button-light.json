@@ -6,7 +6,7 @@
 	"blockTypes": ["core/button"],
 	"styles": {
 		"color": {
-			"background": "var:preset|color|base",
+			"background": "transparent",
 			"text": "var:preset|color|main"
 		},
 		"shadow": "var(--wp--preset--shadow--shadow-none)"

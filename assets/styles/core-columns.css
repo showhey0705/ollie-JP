@@ -19,3 +19,14 @@
 		flex-direction: row-reverse;
 	}
 }
+
+/* Scroll Snap like Apple */
+.japonizm-carousel{
+	scroll-snap-type: x mandatory;
+	overflow: auto;
+}
+
+.japonizm-carousel .wp-block-column{
+	scroll-snap-align: start;
+	min-width: 420px;
+}

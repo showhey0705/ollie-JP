@@ -37,7 +37,7 @@
 }
 
 .is-style-heading-gradient-text{
-	background: var(--wp--preset--gradient--verdy);
+	background: var(--wp--preset--gradient--rainbow);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

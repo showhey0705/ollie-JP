@@ -1,87 +1,66 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Luxury",
+	"title": "Denim Dreams",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#8F6F52"
+					"color": "#0094D0"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#E8DDD8"
+					"color": "#DBF5FF"
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
-					"color": "#E4C7B9"
+					"color": "#BCE7FB"
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#56453F"
+					"color": "#043771"
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#2A241C"
+					"color": "#070708"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#9F897A"
+					"color": "#FCF653"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#FAF5F2"
+					"color": "#FFFFFF"
 				},
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#AD947B"
+					"color": "#043771"
 				},
 				{
 					"name": "tint",
-					"slug": "tertiary",     
-					"color": "#EFE0D7"
+					"slug": "tertiary",
+					"color": "#FAF5E8"
 				},
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#CAC1B2"
+					"color": "#F6EDD5"
 				},
 				{
 					"name": "Border Dark",
 					"slug": "border-dark",
-					"color": "#594B38"
+					"color": "#393941"
 				}
 			]
-		}
-	},
-	"styles": {
-		"elements": {
-			"button": {
-				"spacing": {
-					"padding": {
-						"top": ".6em",
-						"right": "1.4em",
-						"bottom": ".6em",
-						"left": "1.4em"
-					}
-				}
-			}
-		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--jp-serif)",
-			"fontSize": "var(--wp--preset--font-size--base)",
-			"fontWeight": "300",
-			"lineHeight": "var(--wp--custom--line-height--loose)",
-			"letterSpacing": "0.03em"
 		}
 	}
 }

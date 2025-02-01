@@ -105,11 +105,19 @@
 					]
 				},
 				{
-					"name": "Jade",
-					"slug": "jade",
+					"name": "OffWhite",
+					"slug": "offwhite",
 					"colors": [
-						"#426253",
-						"#dee9e3"
+						"#fff",
+						"#000"
+					]
+				},
+				{
+					"name": "Brand",
+					"slug": "brand",
+					"colors": [
+						"#var(--wp--preset--color--primary)",
+						"var(--wp--preset--color--primary-accent)"
 					]
 				}
 			],
@@ -140,6 +148,11 @@
 					"gradient": "linear-gradient(135deg, #F32758, #FFC581)"
 				},
 				{
+					"name": "Rainbow",
+					"slug": "rainbow",
+					"gradient": "linear-gradient(135deg in oklch, #e8e8ff 10%, #ffddab 37%, #fcbbbf 69%, #bdebe8 75%, #ffefcd 85%)"
+				},
+				{
 					"name": "Radial",
 					"slug": "radial",
 					"gradient": "radial-gradient(farthest-side at 73% 21%, transparent, #1a1d29)"
@@ -147,27 +160,32 @@
 				{
 					"name": "Background Subtle",
 					"slug": "bg-subtle",
-					"gradient": "linear-gradient(0deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))"
+					"gradient": "linear-gradient(0deg in oklch, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))"
+				},
+				{
+					"name": "Background Subtle 2",
+					"slug": "bg-subtle-2",
+					"gradient": "linear-gradient(180deg in oklch, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))"
 				},
 				{
 					"name": "Background Dark",
 					"slug": "bg-dark",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--main), var(--wp--preset--color--border-dark))"
+					"gradient": "linear-gradient(135deg in oklch, var(--wp--preset--color--main), var(--wp--preset--color--border-dark))"
 				},
 				{
 					"name": "Background Light",
 					"slug": "bg-light",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary-alt), var(--wp--preset--color--main-accent))"
+					"gradient": "linear-gradient(135deg in oklch, var(--wp--preset--color--primary-alt), var(--wp--preset--color--main-accent))"
 				},
 				{
 					"name": "Background Brand",
 					"slug": "bg-brand",
-					"gradient": "linear-gradient(345deg, var(--wp--preset--color--primary) 50%, rgba(255,255,255,0) 50%)"
+					"gradient": "linear-gradient(345deg in oklch, var(--wp--preset--color--primary) 50%, rgba(255,255,255,0) 50%)"
 				},
 				{
 					"name": "Background Brand alt",
 					"slug": "bg-brand-alt",
-					"gradient": "linear-gradient(345deg, var(--wp--preset--color--primary-alt) 50%, rgba(255,255,255,0) 50%)"
+					"gradient": "linear-gradient(345deg in oklch, var(--wp--preset--color--primary-alt) 50%, rgba(255,255,255,0) 50%)"
 				}
 			],
 			"palette": [
@@ -237,8 +255,8 @@
 				"tight": 1.1,
 				"snug": 1.2,
 				"body": 1.5,
-				"relaxed": 1.625,
-				"loose": 1.9
+				"relaxed": 1.725,
+				"loose": 2
 			}
 		},
 		"layout": {
@@ -943,7 +961,7 @@
 					"width": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--main)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -980,7 +998,7 @@
 			"h2": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-large)",
-					"lineHeight": "var(--wp--custom--line-height--tight)"
+					"lineHeight": "var(--wp--custom--line-height--snug)"
 				}
 			},
 			"h3": {
@@ -1011,8 +1029,7 @@
 					"fontFamily": "var(--wp--preset--font-family--jp-serif)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--line-height--snug)",
-					"letterSpacing": "-0.03em",
-					"css": ".wp-block-heading { font-feature-settings: palt 1 }"
+					"letterSpacing": "-0.01em"
 				}
 			},
 			"link": {
@@ -1034,7 +1051,7 @@
 			"fontFamily": "var(--wp--preset--font-family--jp-sans)",
 			"fontSize": "var(--wp--preset--font-size--base)",
 			"fontWeight": "normal",
-			"lineHeight": "var(--wp--custom--line-height--relaxed)",
+			"lineHeight": "var(--wp--custom--line-height--loose)",
 			"letterSpacing": "0.03em"
 		}
 	},
@@ -1051,6 +1068,14 @@
 		{
 			"name": "page-with-sidebar",
 			"title": "Page (With Sidebar)",
+			"postTypes": [
+				"post",
+				"page"
+			]
+		},
+		{
+			"name": "page-with-sidebar-left",
+			"title": "Page (With Sidebar Left)",
 			"postTypes": [
 				"post",
 				"page"

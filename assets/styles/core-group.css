@@ -2,8 +2,9 @@
 --------------------------------------------- */
 
 .is-style-background-blur {
-	-webkit-backdrop-filter: blur(20px);
-	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	
 }
 /* Border
 	ボーダー付き */
@@ -44,4 +45,18 @@
 
 .japonizm-avatar-row > figure:not(:first-child) {
     margin-left: -20px !important;
+}
+
+/* Helper class to swap order on mobile */
+/* 
+	.japonizm-column-swap {
+		flex-direction: column-reverse;
+	}
+	.japonizm-row-reverse {
+		flex-direction: row-reverse;
+	} */
+
+.japonizm-text-reverse {
+	flex-direction: row-reverse;
+	overflow: auto;
 }

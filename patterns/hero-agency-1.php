@@ -20,7 +20,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"typography":{"letterSpacing":"-2px","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}},"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--medium);letter-spacing:-2px;line-height:1.2"><mark style="background-color:var(--wp--preset--color--primary-alt)" class="has-inline-color has-base-color">医療からも、<br>美容からも、<br>最適解で。</mark></h2>
+<h2 class="wp-block-heading has-xx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--medium);letter-spacing:-2px;line-height:1.2"><mark style="background-color:var(--wp--preset--color--primary-alt)" class="has-inline-color">医療からも、<br>美容からも、<br>最適解で。</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"medium"} -->

@@ -1,64 +1,64 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Luxury",
+	"title": "Seraphina",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#8F6F52"
+					"color": "#23688C"
 				},
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#E8DDD8"
+					"color": "#CEE6F3"
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
-					"color": "#E4C7B9"
+					"color": "#F5BABA"
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#56453F"
+					"color": "#EF9FA1"
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#2A241C"
+					"color": "#08394E"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#9F897A"
+					"color": "#D9B4A5"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
-					"color": "#FAF5F2"
+					"color": "#F7C6B1"
 				},
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#AD947B"
+					"color": "#FFFFFF"
 				},
 				{
 					"name": "tint",
-					"slug": "tertiary",     
-					"color": "#EFE0D7"
+					"slug": "tertiary",
+					"color": "#FAD9CB"
 				},
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#CAC1B2"
+					"color": "#FCECE5"
 				},
 				{
 					"name": "Border Dark",
 					"slug": "border-dark",
-					"color": "#594B38"
+					"color": "#687176"
 				}
 			]
 		}
@@ -66,12 +66,17 @@
 	"styles": {
 		"elements": {
 			"button": {
-				"spacing": {
-					"padding": {
-						"top": ".6em",
-						"right": "1.4em",
-						"bottom": ".6em",
-						"left": "1.4em"
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--secondary)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--main)",
+						"text": "var(--wp--preset--color--base)"
+					},
+					"typography": {
+						"textDecoration": "underline"
 					}
 				}
 			}
@@ -82,6 +87,9 @@
 			"fontWeight": "300",
 			"lineHeight": "var(--wp--custom--line-height--loose)",
 			"letterSpacing": "0.03em"
+		},
+		"color": {
+			"gradient": "linear-gradient(135deg in oklch, #e8e8ff 10%, #ffddab 37%, #fcbbbf 57%, #bdebe8 73%, #ffefcd 100%)"
 		}
 	}
 }

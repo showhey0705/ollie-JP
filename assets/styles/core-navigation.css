@@ -163,3 +163,8 @@ header .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-
 .header--transparent{
     backdrop-filter: blur(20px);
 }
+
+/* 記事内でナビメニューを利用するときのmargin-bottomを無効化 */
+.entry-content :where(.wp-block-navigation ul li) {
+    margin-bottom: 0 !important;
+}

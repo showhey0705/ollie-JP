@@ -1,0 +1,102 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Sunbaked Mint",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Brand",
+					"slug": "primary",
+					"color": "#80E8D4"
+				},
+				{
+					"name": "Primary Accent",
+					"slug": "primary-accent",
+					"color": "#E1FAF5"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "primary-alt",
+					"color": "#F9A7CB"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "primary-alt-accent",
+					"color": "#FCEFEF"
+				},
+				{
+					"name": "Contrast",
+					"slug": "main",
+					"color": "#020908"
+				},
+				{
+					"name": "Contrast Accent",
+					"slug": "main-accent",
+					"color": "#5AA29B"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#F9FFFE"
+				},
+				{
+					"name": "Base Accent",
+					"slug": "secondary",
+					"color": "#126253"
+				},
+				{
+					"name": "tint",
+					"slug": "tertiary",
+					"color": "#e5faf8"
+				},
+				{
+					"name": "Border Light",
+					"slug": "border-light",
+					"color": "#C6FFFA"
+				},
+				{
+					"name": "Border Dark",
+					"slug": "border-dark",
+					"color": "#0C443A"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary-alt)",
+					"text": "var(--wp--preset--color--main)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--primary-alt)",
+						"text": "var(--wp--preset--color--main)"
+					},
+					"typography": {
+						"textDecoration": "underline"
+					}
+				}
+			},
+			"h1": {
+				"typography": {
+					"lineHeight": "var(--wp--custom--line-height--tight)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"lineHeight": "var(--wp--custom--line-height--tight)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--narrow)",
+					"fontWeight": "700",
+					"lineHeight": "var(--wp--custom--line-height--tight)"
+				}
+			}
+		}
+	}
+}
