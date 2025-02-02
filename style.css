@@ -115,30 +115,6 @@ label {
 	opacity: 0.75;
 }
 
-/* ------------------------------------------- */
-/* Animation Functions for Gutenberg
-　アニメーション機能の実装
-/* ------------------------------------------- */
-@import "props.animations.css";
-@import "props.easing.css";
-
-/* アニメーションのデフォルト設定 */
-[data-animation] {
-	opacity: 0;
-	transition: transform 0.8s var(--ease-spring-3), opacity 0.8s ease-out;
-}
-
-/* スクロール時に発火 */
-.is-visible {
-	opacity: 1 !important;
-}
-
-/* 遅延時間 */
-[data-delay="0s"] { animation-delay: 0s !important; }
-[data-delay="0.5s"] { animation-delay: 0.5s !important; }
-[data-delay="1s"] { animation-delay: 1s !important; }
-[data-delay="1.5s"] { animation-delay: 1.5s !important; }
-[data-delay="2s"] { animation-delay: 2s !important; }
 
 
 /* Helper styles that can't be done via theme.json
@@ -148,8 +124,6 @@ label {
 	background-color: var(--wp--preset--color--primary-alt);
   }
   
-
-
 /* 日本語の文字詰め調整（見出しH、段落P）
 参考: https://ics.media/entry/14087/  */
 .wp-block-heading,

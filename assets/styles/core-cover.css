@@ -21,7 +21,7 @@
 .is-style-blur-image-less:hover > .wp-block-cover__image-background,
 .is-style-blur-image-more:hover > .wp-block-cover__image-background {
 	filter: blur(0px);
-	transform: scale(1.24);
+	transform: scale(1.03);
 }
 .is-style-rounded-cover{
 	overflow: hidden;
