@@ -9,6 +9,6 @@
 			"background": "transparent",
 			"text": "var:preset|color|main"
 		},
-		"shadow": "var(--wp--preset--shadow--shadow-none)"
+		"shadow": "var:preset|shadow|shadow-none"
 	}
 }

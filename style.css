@@ -79,6 +79,7 @@ input[type="submit"],
 input[type="text"],
 textarea {
 	-webkit-appearance: none;
+	appearance: none;
 }
 
 input:not([type="submit"]),
@@ -115,9 +116,7 @@ label {
 	opacity: 0.75;
 }
 
-
-
-/* Helper styles that can't be done via theme.json
+/* Helper styles
 ---------------------------------------------------------------------------- */
 ::selection {
 	color: var(--wp--preset--color--primary-alt-accent);
@@ -190,6 +189,10 @@ a.more-link {
 @media (max-width: 781px) {
 	.japonizm-hide-on-mobile {
 		display: none;
+	}
+
+	.ollie-unstick-mobile {
+		position: static;
 	}
 }
 

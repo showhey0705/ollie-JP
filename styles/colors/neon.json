@@ -1,39 +1,39 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Startup",
+	"title": "Neon",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Brand",
 					"slug": "primary",
-					"color": "#454DFF"
+					"color": "#495148"
 				},
 				{
 					"name": "Brand Accent",
 					"slug": "primary-accent",
-					"color": "#DBDDFF"
+					"color": "#e5f0e4"
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
-					"color": "#B1C2FF"
+					"color": "#CEF453"
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#263042"
+					"color": "#44473b"
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#171A1F"
+					"color": "#0E0E0E"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#B6C7D9"
+					"color": "#D0D1CD"
 				},
 				{
 					"name": "Base",
@@ -43,17 +43,17 @@
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#3b5570"
+					"color": "#51524e"
 				},
 				{
 					"name": "Tint",
 					"slug": "tertiary",
-					"color": "#F8F7F9"
+					"color": "#F5F5F0"
 				},
 				{
 					"name": "Border Base",
 					"slug": "border-light",
-					"color": "#DADEE3"
+					"color": "#E2E2D9"
 				},
 				{
 					"name": "Border Contrast",
@@ -61,28 +61,6 @@
 					"color": "#444B57"
 				}
 			]
-		}
-	},
-	"styles": {
-		"elements": {
-			"button": {
-				"spacing": {
-					"padding": {
-						"top": ".6em",
-						"right": "1.4em",
-						"bottom": ".6em",
-						"left": "1.4em"
-					}
-				}
-			},
-			"heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--expanded)",
-					"fontWeight": "500",
-					"lineHeight": "var(--wp--custom--line-height--snug)",
-					"fontSize": "var(--wp--preset--font-size--large)"
-				}
-			}
 		}
 	}
 }

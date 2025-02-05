@@ -8,22 +8,38 @@
 				{
 					"name": "Brand",
 					"slug": "primary",
+<<<<<<< HEAD
 					"color": "hsl(113, 6%, 30%)"
+=======
+					"color": "#495148"
+>>>>>>> main
 				},
 				{
 					"name": "Brand Accent",
 					"slug": "primary-accent",
+<<<<<<< HEAD
 					"color": "hsl(115, 29%, 92%)"
+=======
+					"color": "#e5f0e4"
+>>>>>>> main
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
+<<<<<<< HEAD
 					"color": "hsl(74, 88%, 64%)"
+=======
+					"color": "#CEF453"
+>>>>>>> main
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
+<<<<<<< HEAD
 					"color": "hsl(75, 9%, 25%)"
+=======
+					"color": "#44473b"
+>>>>>>> main
 				},
 				{
 					"name": "Contrast",

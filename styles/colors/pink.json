@@ -8,32 +8,56 @@
 				{
 					"name": "Brand",
 					"slug": "primary",
+<<<<<<< HEAD
 					"color": "#ff5c9a"
+=======
+					"color": "#FF50A9"
+>>>>>>> main
 				},
 				{
 					"name": "Brand Accent",
 					"slug": "primary-accent",
+<<<<<<< HEAD
 					"color": "#ffe4ee"
+=======
+					"color": "#FFE7F3"
+>>>>>>> main
 				},
 				{
 					"name": "Brand Alt",
 					"slug": "primary-alt",
+<<<<<<< HEAD
 					"color": "#FFB0CC"
+=======
+					"color": "#FFCFD7"
+>>>>>>> main
 				},
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
+<<<<<<< HEAD
 					"color": "#542A39"
+=======
+					"color": "#463235"
+>>>>>>> main
 				},
 				{
 					"name": "Contrast",
 					"slug": "main",
+<<<<<<< HEAD
 					"color": "#261C1F"
+=======
+					"color": "#1E181B"
+>>>>>>> main
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
+<<<<<<< HEAD
 					"color": "#d0ccde"
+=======
+					"color": "#E6CEDA"
+>>>>>>> main
 				},
 				{
 					"name": "Base",
@@ -43,22 +67,38 @@
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
+<<<<<<< HEAD
 					"color": "#7b545e"
+=======
+					"color": "#6c4659"
+>>>>>>> main
 				},
 				{
 					"name": "Tint",
 					"slug": "tertiary",
+<<<<<<< HEAD
 					"color": "#fbf4f8"
+=======
+					"color": "#F7F3F5"
+>>>>>>> main
 				},
 				{
 					"name": "Border Base",
 					"slug": "border-light",
+<<<<<<< HEAD
 					"color": "#EEDAE0"
+=======
+					"color": "#EDE0E6"
+>>>>>>> main
 				},
 				{
 					"name": "Border Contrast",
 					"slug": "border-dark",
+<<<<<<< HEAD
 					"color": "#5F4D53"
+=======
+					"color": "#5D4D55"
+>>>>>>> main
 				}
 			]
 		}

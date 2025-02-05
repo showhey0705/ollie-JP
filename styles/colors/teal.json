@@ -43,7 +43,11 @@
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
+<<<<<<< HEAD
 					"color": "hsl(188, 19%, 31%)"
+=======
+					"color": "#3F595D"
+>>>>>>> main
 				},
 				{
 					"name": "Tint",
