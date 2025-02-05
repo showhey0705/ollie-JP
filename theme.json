@@ -116,8 +116,8 @@
 					"name": "Brand",
 					"slug": "brand",
 					"colors": [
-						"#var(--wp--preset--color--primary)",
-						"var(--wp--preset--color--primary-accent)"
+						"var:preset|color|primary",
+						"var:preset|color|primary-accent"
 					]
 				}
 			],
@@ -282,19 +282,7 @@
 				"body": 1.5,
 				"relaxed": 1.725,
 				"loose": 2
-			},
-			"animationOptions": {
-				"none": "アニメーションなし",
-				"fade-in": "フェードイン",
-				"slide-in": "スライドイン",
-				"zoom-in": "ズームイン"
-				},
-			"animationDelay": {
-				"0s": "遅延なし",
-				"0.2s": "0.2秒遅延",
-				"0.4s": "0.4秒遅延",
-				"0.6s": "0.6秒遅延"
-			}	
+			}
 		},
 		"layout": {
 			"contentSize": "690px",
@@ -865,10 +853,7 @@
 					"fontFamily": "var:preset|font-family|jp-serif",
 					"fontSize": "var:preset|font-size|base",
 					"fontWeight": "400",
-					"letterSpacing": "0.03em",
-					"fontSize": "var:preset|font-size|medium",
-					"fontWeight": "500",
-					"lineHeight": "var:custom|line-height|body"
+					"letterSpacing": "0.03em"
 				}
 			},
 			"core/query-pagination": {
@@ -980,16 +965,16 @@
 			"core/image": {
 				"spacing": {
 					"margin": {
-						"top": "var(--wp--preset--spacing--medium)",
+						"top": "var:preset|spacing|medium",
 						"right": "auto",
-						"bottom": "var(--wp--preset--spacing--large)",
+						"bottom": "var:preset|spacing|large",
 						"left": "auto"
 					}
 				},
 				"border": {
 					"radius": "13px"
 				},
-				"shadow": "var(--wp--preset--shadow--shadow-base)"
+				"shadow": "var:preset|shadow|shadow-base"
 			}
 		},
 		"color": {
@@ -1018,10 +1003,9 @@
 					"fontSize": "var:preset|font-size|small",
 					"lineHeight": "var:custom|line-height|body",
 					"fontWeight": "700",
-					"letterSpacing": "0.04em",
-
+					"letterSpacing": "0.04em"
 				},
-				"shadow": "var(--wp--preset--shadow--shadow-inner-button)",
+				"shadow": "var:preset|shadow|shadow-inner-button",
 				":hover": {
 					"color": {
 						"background": "var:preset|color|primary-alt-accent",
@@ -1072,7 +1056,7 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|jp-serif",
 					"fontWeight": "300",
-					"lineHeight": "var(--wp--custom--line-height--snug)",
+					"lineHeight": "var:custom|line-height|snug",
 					"letterSpacing": "-0.01em"
 				}
 			},
