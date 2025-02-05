@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Page
- * Slug: japonizm/blog-page
+ * Slug: ollie/blog-page
  * Description: A full page design for a blog page
- * Categories: japonizm/pages
+ * Categories: ollie/pages
  * Keywords: page, layout, design, template, blog, posts, query
  * Viewport Width: 1500
  * Block Types: 
@@ -11,4 +11,4 @@
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"japonizm/post-loop-grid"} /-->
+<!-- wp:pattern {"slug":"ollie/post-loop-grid"} /-->

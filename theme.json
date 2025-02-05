@@ -186,6 +186,21 @@
 					"name": "Background Brand alt",
 					"slug": "bg-brand-alt",
 					"gradient": "linear-gradient(345deg in oklch, var(--wp--preset--color--primary-alt) 50%, rgba(255,255,255,0) 50%)"
+				},
+				{
+					"name": "Hero Section",
+					"slug": "hero-section",
+					"gradient": "linear-gradient(90deg, rgba(253, 227, 212, 0.40) 0%, rgba(249, 218, 233, 0.40) 48.96%, rgba(162, 209, 239, 0.40) 100%)"
+				},
+				{
+					"name": "Light Section",
+					"slug": "light-section",
+					"gradient": "linear-gradient(135deg, rgba(253, 227, 212, 0.25) 0%, rgba(249, 218, 233, 0.25) 48.96%, rgba(162, 209, 239, 0.25) 100%)"
+				},
+				{
+					"name": "Light Section Fade",
+					"slug": "light-section-fade",
+					"gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%), linear-gradient(135deg, rgba(253, 227, 212, 0.20) 0%, rgba(249, 218, 233, 0.20) 48.96%, rgba(162, 209, 239, 0.20) 100%)"
 				}
 			],
 			"palette": [
@@ -257,7 +272,19 @@
 				"body": 1.5,
 				"relaxed": 1.725,
 				"loose": 2
-			}
+			},
+			"animationOptions": {
+				"none": "アニメーションなし",
+				"fade-in": "フェードイン",
+				"slide-in": "スライドイン",
+				"zoom-in": "ズームイン"
+				},
+			"animationDelay": {
+				"0s": "遅延なし",
+				"0.2s": "0.2秒遅延",
+				"0.4s": "0.4秒遅延",
+				"0.6s": "0.6秒遅延"
+			}	
 		},
 		"layout": {
 			"contentSize": "690px",

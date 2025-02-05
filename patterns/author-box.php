@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Author Box
- * Slug: japonizm/author-box
+ * Slug: ollie/author-box
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: japonizm/card
+ * Categories: ollie/card
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
  * Block Types: 

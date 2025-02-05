@@ -204,6 +204,230 @@ a.more-link {
 	}
 	}
 
+/* ------------------------------------------- */
+/* 	Hero Scroll: 
+	ヒーロースクロール */
+/* ------------------------------------------- */
+@media only screen and (max-width: 863px) {
+	.hide-on-mobile {
+		display: none !important;
+	}
+}
 
+@media only screen and (max-width: 800px) {
+	.hide-on-tablet {
+		display: none !important;
+	}
+}
 
+@media only screen and (min-width: 864px) {
+	.hide-on-desktop {
+		display: none !important; 
+	}
+}
+
+.dot-bg {
+	background-image: url(assets/src-images/dot.png);
+	background-size: 18px 18px;
+}
+
+.glow {
+	position: relative;
+}
 	
+.glow img {
+	position: relative;
+	z-index: 5;
+}
+	
+.glow:after {
+	background: linear-gradient(-45deg, #7b35ff, #a2284c 34%, #352792 67%, #ff8b79);
+	background-size: 200% 200%;
+	content: "";
+	filter: blur(100px);
+	height: 100%;
+	left: 0;
+	margin: 0 auto;
+	opacity: .7;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	transform: translate3d(0, 0, 0);
+}
+
+.glow-light:after {
+	background: linear-gradient(-45deg, #d8c4ff, #ffa3d8 34%, #c6beff 67%, #ffbbb1);
+	opacity: .6;
+}
+
+.unleash-patterns .glow:after {
+	max-height: 50%;
+	max-width: 1460px;
+}
+
+/* ------------------------------------------- */
+/* 	Hero Scroll: 
+	ヒーロースクロール */
+/* ------------------------------------------- */
+
+
+
+.hero-container {
+	max-height: 1200px;
+}
+
+.ollie-hero-pattern-mobile {
+	transform: rotate(337deg) skew(10deg, 10deg) translateY(30%) scale(1.4);
+}
+
+.hero-scroll-container {
+	transform: rotate(-28deg) skew(10deg, 10deg);
+}
+
+.hero-scroll {
+	width: 200%;
+	-webkit-overflow-scrolling: touch;
+	animation: scrollhero 100s linear infinite;
+	animation-play-state: running;
+	position: relative;
+	z-index: 20;
+}
+
+.hero-scroll-container.glow-light:after {
+	opacity: .3;
+}
+
+.hero-scroll img {
+	border-radius: 5px;
+	transition: .3s ease;
+	box-shadow: 0px 38px 11px 0px rgba(162, 129, 146, 0.00), 0px 24px 10px 0px rgba(162, 129, 146, 0.01), 0px 14px 8px 0px rgba(162, 129, 146, 0.05), 0px 6px 6px 0px rgba(162, 129, 146, 0.09), 0px 2px 3px 0px rgba(162, 129, 146, 0.10);
+	z-index: 5;
+}
+
+.hero-scroll img:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 240px 67px 0px rgba(162, 129, 146, 0.00), 0px 154px 62px 0px rgba(162, 129, 146, 0.01), 0px 87px 52px 0px rgba(162, 129, 146, 0.05), 0px 38px 38px 0px rgba(162, 129, 146, 0.09), 0px 10px 21px 0px rgba(162, 129, 146, 0.10);
+	z-index: 10;
+}
+
+@keyframes fadeIn {
+	0% {
+        transform: scale(1);
+		opacity: 0;
+    }
+    50% {
+        transform: scale(1.05);
+    }
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+  }
+  
+  .hero-scroll .wp-block-group {
+	animation-name: fadeIn;
+	animation-duration: .5s; /* Adjust as needed */
+	animation-fill-mode: forwards;
+	opacity: 0;
+  }
+  
+.hero-scroll .wp-block-group:nth-child(1) {
+	animation-delay: .05s;
+}
+
+.hero-scroll .wp-block-group:nth-child(2) {
+	animation-delay: .1s;
+}
+
+.hero-scroll .wp-block-group:nth-child(3) {
+	animation-delay: .15s;
+}
+
+.hero-scroll .wp-block-group:nth-child(4) {
+	animation-delay: .2s;
+}
+
+.hero-scroll .wp-block-group:nth-child(5) {
+	animation-delay: .25s;
+}
+
+.hero-scroll .wp-block-group:nth-child(6) {
+	animation-delay: .3s;
+}
+
+.hero-scroll .wp-block-group:nth-child(7) {
+	animation-delay: .35s;
+}
+
+.hero-scroll .wp-block-group:nth-child(8) {
+	animation-delay: .4s;
+}
+
+.hero-scroll .wp-block-group:nth-child(9) {
+	animation-delay: .45s;
+}
+
+.hero-scroll .wp-block-group:nth-child(10) {
+	animation-delay: .5s;
+}
+
+.hero-scroll .wp-block-group:nth-child(11) {
+	animation-delay: .55s;
+}
+
+@keyframes scrollhero {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-45%);
+    }
+	100% {
+		transform: translateX(0);
+	}
+}
+
+/* ぐるぐる回転 */
+.hero-rotate{
+	overflow: visible;
+}
+.hero-rotate::before {
+    content: " ";
+    display: block;
+    width: 140px;
+    height: 140px;
+    background-image: url(assets/src-images/ocean-views.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: -2.4rem;
+    left: -3rem;
+    z-index: 1;
+    animation: rotate 13s linear infinite;
+}
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* フェードイン */
+/* フェードインの基本スタイル */
+.fade-in {
+    opacity: 0;
+    transform: scale(.9) translateY(20px);
+	transform-origin: center bottom; /* 基準点を「中央下」に変更 */
+    transition: opacity .6s cubic-bezier(0.33, 1, 0.68, 1), 
+                transform .6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+

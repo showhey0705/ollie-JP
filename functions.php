@@ -209,3 +209,54 @@ function template_part_areas( array $areas ) {
 	return $areas;
 }
 add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_areas' );
+
+/**
+ * フェードインエフェクトの追加
+ * Add Fade in Effect
+ */
+function add_fade_in_script() {
+    wp_enqueue_script(
+        'fade-in-animation',
+        get_template_directory_uri() . '/assets/js/fade-in.js', 
+        array(), 
+        null, 
+        true 
+    );
+}
+add_action('wp_enqueue_scripts', __NAMESPACE__ . '\add_fade_in_script');
+
+/**
+ * フェードインエフェクトの追加
+ * Add Fade in Effect
+ */
+function add_custom_animation_script() {
+    wp_enqueue_script(
+        'custom-animation-settings',
+        get_template_directory_uri() . '/assets/js/custom-animation-settings.js',
+        array( 'wp-blocks', 'wp-hooks', 'wp-edit-post', 'wp-components', 'wp-data', 'wp-i18n' ),
+        null,
+        true
+    );
+}
+add_action('enqueue_block_editor_assets', __NAMESPACE__ . '\add_custom_animation_script');
+
+/**
+ * サイドバー設定の追加
+ * Add Sidebar settings
+ */
+if ( file_exists( get_template_directory() . '/inc/settings-sidebar/settings-sidebar.php' ) ) {
+	require_once get_template_directory() . '/inc/settings-sidebar/settings-sidebar.php';
+} else {
+	error_log( 'settings-sidebar.phpファイルが見つかりません😮' );
+}
+
+function ollie_enqueue_block_editor_assets() {
+	wp_enqueue_script(
+		'ollie-settings-sidebar',
+		get_template_directory_uri() . '/inc/settings-sidebar/build/index.js',
+		array( 'wp-plugins', 'wp-edit-post', 'wp-components', 'wp-data', 'wp-compose' ),
+		filemtime(get_template_directory() . '/inc/settings-sidebar/build/index.js'),
+		true
+	);
+}
+add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\ollie_enqueue_block_editor_assets' );
